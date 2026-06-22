@@ -30,8 +30,14 @@ Total Supply:
 Website:
 https://www.vikasanetwork.com
 
-Telegram:
-https://t.me/vikasanetwork
+linkedin:
+https://www.linkedin.com/company/vikasanetwork
+
+Instagram:
+https://www.instagram.com/vikasanetwork
+
+X(twitter)
+https://x.com/vikasanetwork
 
 Polygonscan:
 https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
@@ -42,8 +48,10 @@ https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
 
 ✓ Contract verified
 
+✓ Verified Signature
+
 ✓ Whitepaper published
 
 ✓ GitHub repository public
 
-✓ Android app submitted to Google Play
+✓ Android app Live in Google Play
