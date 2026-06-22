@@ -2,6 +2,6 @@
 
 ## June 2026
 
-- Whitepaper v2.0 published
+- Whitepaper  published
 - GitHub repository launched
-- Android app submitted to Google Play
+- Android app live to Google Play
