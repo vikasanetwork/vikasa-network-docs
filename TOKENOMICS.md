@@ -1,9 +1,5 @@
-# Tokenomics
-
-Total Supply: 24,000,000 VIK
-
-Community Rewards: 50%
-Liquidity: 20%
-Development: 15%
-Team: 10%
-Reserve: 5%
+Name: Vikasa Network
+Symbol: VIK
+Chain: Polygon
+Contract: 0x2921d67ac78ebda0020f952e51e931ed125e00c1
+Website: https://www.vikasanetwork.com
