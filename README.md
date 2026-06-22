@@ -30,6 +30,9 @@ Total Supply:
 Website:
 https://www.vikasanetwork.com
 
+Google Play Store:
+https://play.google.com/store/apps/details?id=com.vikasa.app
+
 linkedin:
 https://www.linkedin.com/company/vikasanetwork
 
