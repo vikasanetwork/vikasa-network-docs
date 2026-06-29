@@ -1,44 +1,74 @@
-# RELEASES.md
-
 # Vikasa Network Release History
+
+This document records public releases and significant milestones for the Vikasa Network ecosystem.
 
 ---
 
-## Version 1.0 — June 2026
+# v1.0.0 — Initial Public Release
 
-### Platform
+**Release Date:** June 2026
 
-* Initial Android application released on Google Play.
+## Platform
+
 * Official website launched.
-* Public documentation repository published.
+* Android application published on Google Play.
+* Cloudflare Web Analytics enabled.
 
-### Blockchain
+## Blockchain
 
-* VIK utility token deployed on Polygon PoS.
-* Smart contract source code verified on PolygonScan.
-* Fixed supply established at 24,000,000 VIK.
-* No public mint function.
+* VIK token deployed on Polygon PoS.
+* ERC-20 smart contract verified on PolygonScan.
+* Fixed total supply established at **24,000,000 VIK**.
+* No mint function after deployment.
 
-### Documentation
+## Documentation
 
 * Whitepaper v2.0 published.
 * Tokenomics documentation published.
 * Roadmap published.
-* Smart contract documentation published.
-* Security documentation published.
+* Smart Contract documentation published.
+* Transparency Report published.
+* Security Policy published.
+* FAQ published.
+* Audit Status published.
+* Verification document published.
 
-### Community
+## Security
 
-* Official X (Twitter) account launched.
+* GoPlus Security analysis completed.
+* No proxy contract.
+* No hidden owner.
+* No blacklist.
+* No owner balance modification.
+* No critical security risks reported by GoPlus Security at the time of release.
+
+## Community
+
+* Official website available.
+* GitHub documentation repository published.
+* X (Twitter) account launched.
 * LinkedIn company page launched.
 * Telegram community opened.
 
-### Security
+## Verification
 
-* Smart contract publicly verified.
-* GoPlus Security scan completed.
-* No critical security risks detected.
+* Smart contract source code publicly verified.
+* Public documentation available.
+* Official project resources published.
 
 ---
 
-Future releases will be documented here as the Vikasa Network ecosystem evolves.
+# Future Releases
+
+Future releases will document:
+
+* Platform improvements
+* Mobile application updates
+* Security enhancements
+* Ecosystem features
+* Community milestones
+* Documentation updates
+
+---
+
+© 2026 Vikasa Network
