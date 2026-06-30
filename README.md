@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="assets/logo 512 x 512.png
+" width="180" alt="Vikasa Network Logo">
+</p>
+
+<h1 align="center">Vikasa Network (VIK)</h1>
+
+<p align="center">
+Polygon-based Web3 Rewards Ecosystem
+</p>
 # Vikasa Network (VIK)
 
 Official documentation repository for **Vikasa Network (VIK)**.
