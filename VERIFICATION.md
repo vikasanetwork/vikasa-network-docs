@@ -1,28 +1,23 @@
+# VERIFICATION.md
+
 # Vikasa Network Verification
 
-Last Updated: June 2026
+**Version:** 1.0
 
-This page provides official resources that can be independently verified.
+**Last Updated:** 30 June 2026
+
+This document provides official resources that can be independently verified by users, developers, exchanges, partners, and community members.
 
 ---
 
 # Project Identity
 
-**Project Name**
-
-Vikasa Network
-
-**Token Symbol**
-
-VIK
-
-**Network**
-
-Polygon PoS
-
-**Token Standard**
-
-ERC-20
+| Property           | Value          |
+| ------------------ | -------------- |
+| **Project Name**   | Vikasa Network |
+| **Token Symbol**   | VIK            |
+| **Blockchain**     | Polygon PoS    |
+| **Token Standard** | ERC-20         |
 
 ---
 
@@ -30,96 +25,108 @@ ERC-20
 
 **Contract Address**
 
+```text
 0x2921d67ac78ebda0020f952e51e931ed125e00c1
+```
 
-**Verification Status**
+Current status:
 
-✅ Source code verified on PolygonScan
-
-**Supply**
-
-24,000,000 VIK (Fixed Supply)
+* ✅ Smart contract deployed
+* ✅ Source code publicly verified on PolygonScan
+* ✅ Fixed maximum supply of **24,000,000 VIK**
 
 ---
 
-# Security
+# Public Verification
 
-Current public verification:
+The following items can currently be verified independently:
 
-✅ Verified Source Code
+* Smart contract deployed on Polygon PoS
+* Source code verified on PolygonScan
+* Public GitHub documentation repository
+* Official website
+* Android application published on Google Play
+* Whitepaper publicly available
 
-✅ GoPlus Security Analysis
+---
 
-✅ No Mint Function After Deployment
+# Public Security Verification
 
-✅ No Proxy Contract
+Current publicly available security verification includes:
 
-✅ No Hidden Owner
+* PolygonScan verified source code
+* GoPlus Security automated analysis
+* QuickIntel smart contract scan
+* OpenZeppelin ERC-20 implementation
 
-✅ No Blacklist
-
-✅ OpenZeppelin ERC-20 Implementation
+> Automated security analysis improves transparency but does not replace an independent third-party security audit.
 
 ---
 
 # Official Resources
 
-**Website**
+## Website
 
 https://www.vikasanetwork.com
 
-**Whitepaper**
+## Whitepaper
 
 https://www.vikasanetwork.com/whitepaper.pdf
 
-**GitHub**
+## GitHub
 
 https://github.com/vikasanetwork/vikasa-network-docs
 
-**PolygonScan**
+## PolygonScan
 
 https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
 
-**Google Play**
+## Google Play
 
 https://play.google.com/store/apps/details?id=com.vikasa.app
 
 ---
 
-# Official Social Channels
+# Official Community Channels
 
-X (Twitter)
+* X (Twitter)
+* LinkedIn
+* Instagram
+* Telegram
 
-https://x.com/vikasanetwork
-
-LinkedIn
-
-https://www.linkedin.com/company/vikasanetwork
-
-Instagram
-
-https://www.instagram.com/vikasanetwork
-
-Telegram
-
-https://t.me/vikasanetwork
+Always verify that links originate from the official Vikasa Network website before interacting with the project.
 
 ---
 
 # Contact
 
-General Inquiries
+**General Inquiries**
 
 [info@vikasanetwork.com](mailto:info@vikasanetwork.com)
 
 ---
 
-# Transparency
+# Verification Policy
 
-The Vikasa Network team is committed to maintaining public documentation, verified smart contracts, and transparent communication.
+Vikasa Network is committed to maintaining publicly verifiable information whenever practical.
 
-Project documentation will be updated as new ecosystem features and infrastructure are introduced.
+Future verification may include:
+
+* Exchange listings
+* Public liquidity
+* Independent security audit
+* Additional ecosystem integrations
+
+Material updates will be published through official documentation and communication channels.
 
 ---
 
-© 2026 Vikasa Network
+# Disclaimer
+
+Users should independently verify all project information using official resources before interacting with blockchain applications or digital assets.
+
+---
+
+**© 2026 Vikasa Network**
+
+**Version:** 1.0
