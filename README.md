@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="180" alt="Vikasa Network Logo">
+  <img src="assets/logo512.png" width="180" alt="Vikasa Network Logo">
 </p>
 
 <h1 align="center">Vikasa Network (VIK)</h1>
