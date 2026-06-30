@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="assets/logo 512 x 512.png
+  <img src="assets/logo 512.png
+    
 " width="180" alt="Vikasa Network Logo">
 </p>
 
