@@ -98,7 +98,7 @@ Powered by the **VIK utility token**, the ecosystem rewards users for completing
 
 | Referral | Staking | Sidebar |
 |------|------|------|
-| <img src="images/referral.png" width="220"> | <img src="images/stake.png" width="220"> | <img src="images/menu.png" width="220"> |
+| <img src="images/reffer.png" width="220"> | <img src="images/stake.png" width="220"> | <img src="images/menu.png" width="220"> |
 
 | Login | Registration | |
 |------|------|------|
