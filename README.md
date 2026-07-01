@@ -170,6 +170,29 @@ Powered by the **VIK utility token**, the ecosystem rewards users for completing
 | Maximum Supply | 24,000,000 VIK |
 | Supply Model | Fixed Supply |
 
+# 📄 License
+
+Copyright © 2026 Vikasa Network.
+
+This repository is provided for transparency and informational purposes.
+
+All Rights Reserved.
+
+See the LICENSE file for details.
+
+---
+
+# ⚠️ Disclaimer
+
+VIK is a utility token intended for participation within the Vikasa Network ecosystem.
+
+Nothing contained in this repository constitutes financial, investment, legal, or tax advice.
+
+Participation in blockchain ecosystems involves technical, operational, and market risks.
+
+Users should conduct their own independent research before interacting with blockchain applications or digital assets.
+
+
 ## Smart Contract
 
 ```text
