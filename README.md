@@ -92,13 +92,13 @@ Powered by the **VIK utility token**, the ecosystem rewards users for completing
 
 # 📱 Application Preview
 
-| Home | Earn | Wallet |
-|------|------|------|
-| <img src="images/home.png" width="220"> | <img src="images/earn.png" width="220"> | <img src="images/wallet.png" width="220"> |
+| Home | Earn | Wallet | Feed |
+|------|------|--------|------|
+| <img src="images/home.png" width="220"> | <img src="images/earn.png" width="220"> | <img src="images/wallet.png" width="220"> | <img src="images/feed.png" width="220"> |
 
 | Referral | Staking | Sidebar |
 |------|------|------|
-| <img src="images/referral.png" width="220"> | <img src="images/stake.png" width="220"> | <img src="images/sidebar.png" width="220"> |
+| <img src="images/referral.png" width="220"> | <img src="images/stake.png" width="220"> | <img src="images/menu.png" width="220"> |
 
 | Login | Registration | |
 |------|------|------|
