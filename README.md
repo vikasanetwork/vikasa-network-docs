@@ -1,53 +1,18 @@
+# Vikasa Network (VIK)
+
 <p align="center">
   <img src="assets/logo512.png" width="180" alt="Vikasa Network Logo">
 </p>
 
 <h1 align="center">Vikasa Network (VIK)</h1>
 
-<p align="center">
-A Polygon-based Web3 Rewards Ecosystem
-</p>
+<p align="center">A Polygon-based Web3 Rewards Ecosystem</p>
 
-<p align="center">
+## 📖 Overview
 
-![Blockchain](https://img.shields.io/badge/Blockchain-Polygon-8247E5)
-![Token](https://img.shields.io/badge/Token-VIK-0052FF)
-![Standard](https://img.shields.io/badge/ERC--20-Utility-success)
-![Android](https://img.shields.io/badge/Android-Live-brightgreen)
-![Version](https://img.shields.io/badge/App-v6.2-blue)
+Vikasa Network is a Polygon-powered Web3 rewards ecosystem where users earn VIK utility tokens through daily rewards, referrals, missions, and community engagement.
 
-</p>
-
----
-
-# 📖 Overview
-
-Vikasa Network is a Polygon-powered Web3 rewards ecosystem built to encourage genuine participation through blockchain technology, community engagement, and a mobile-first experience.
-
-Powered by the **VIK utility token**, the ecosystem rewards users for completing platform activities while maintaining transparency, verified smart contracts, and sustainable ecosystem growth.
-
----
-
-# 📑 Table of Contents
-
-- Overview
-- Current Status
-- Quick Links
-- Application Preview
-- Features
-- Technology Stack
-- Token Information
-- Repository Structure
-- Security
-- Transparency
-- Documentation
-- Roadmap
-- Disclaimer
-- Contact
-
----
-
-# 🚀 Current Status
+## 🚀 Current Status
 
 | Component | Status |
 |-----------|--------|
@@ -57,144 +22,124 @@ Powered by the **VIK utility token**, the ecosystem rewards users for completing
 | PolygonScan Verification | ✅ Verified |
 | Whitepaper | ✅ Published |
 | GitHub Documentation | ✅ Public |
-| Google Play | ✅ Live |
 | Daily Rewards | ✅ Live |
 | Daily Streaks | ✅ Live |
 | Missions | ✅ Live |
-| Achievements | ✅ Live |
 | Referral Program | ✅ Live |
 | Community Feed | ✅ Live |
 | Private Messaging | ✅ Live |
 | Leaderboards | ✅ Live |
-| Staking | ✅ Live |
-| Announcement System | ✅ Live |
+| Token Lock | ✅ Live |
 | Withdrawals | ⏳ Phase 3 |
-| Exchange Listings | ⏳ Future |
-| Public Liquidity | ⏳ Future |
 
----
-
-# 🌐 Quick Links
+## 🌐 Quick Links
 
 | Resource | Link |
 |----------|------|
-| 🌍 Website | https://www.vikasanetwork.com |
-| 📱 Google Play | https://play.google.com/store/apps/details?id=com.vikasa.app |
-| 📖 Whitepaper | https://www.vikasanetwork.com/whitepaper.pdf |
-| 🔗 PolygonScan | https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1 |
+| Website | https://www.vikasanetwork.com |
+| Google Play | https://play.google.com/store/apps/details?id=com.vikasa.app |
+| Whitepaper | https://www.vikasanetwork.com/whitepaper.pdf |
+| PolygonScan | https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1 |
 | Blockspot | https://blockspot.io/coin/vikasa-network-vik/ |
-| 💻 GitHub | https://github.com/vikasanetwork/vikasa-network-docs |
-| 🐦 X | https://x.com/vikasanetwork |
-| 💼 LinkedIn | https://www.linkedin.com/company/vikasanetwork |
-| 📸 Instagram | https://www.instagram.com/vikasanetwork |
-| 💬 Telegram | https://t.me/vikasanetwork |
+| GoPlus Security | https://gopluslabs.io/token-security/137/0x2921d67ac78ebda0020f952e51e931ed125e00c1 |
+| GitHub | https://github.com/vikasanetwork/vikasa-network-docs |
+| X | https://x.com/vikasanetwork |
+| LinkedIn | https://www.linkedin.com/company/vikasanetwork |
+| Instagram | https://www.instagram.com/vikasanetwork |
+| Telegram | https://t.me/vikasanetwork |
 
----
-
-# 📱 Application Preview
-
-| Home | Earn | Wallet | Feed |
-|------|------|--------|------|
-| <img src="images/home.png" width="220"> | <img src="images/earn.png" width="220"> | <img src="images/wallet.png" width="220"> | <img src="images/feed.png" width="220"> |
-
-| Referral | Staking | Sidebar |
-|------|------|------|
-| <img src="images/reffer.png" width="220"> | <img src="images/stake.png" width="220"> | <img src="images/menu.png" width="220"> |
-
-| Login | Registration | |
-|------|------|------|
-| <img src="images/login.png" width="220"> | <img src="images/registration.png" width="220"> | |
-
----
-
-# ✨ Features
-
-## 🎁 Rewards
+## ✨ Features
 
 - Daily Rewards
-- Daily Streak System
+- Daily Streaks
 - Watch & Earn
-- Daily Missions
-- Weekly Challenges
-- Monthly Challenges
-- Community Challenges
-
-## 🏆 Engagement
-
-- Achievements
-- User Titles
-- Leaderboards
 - Community Feed
 - Private Messaging
-- Announcement Center
-
-## 👥 Growth
-
+- Leaderboards
 - 2-Tier Referral Program
-- Referral Milestones
-- Profile Progress
-- Community Events
+- Token Lock
+- Future Withdrawals
 
-## 💰 Token Utility
+## 🛠 Technology Stack
 
-- VIK Wallet
-- Staking
-- Transaction History
-- Reward Logs
-- Future Withdrawals (Phase 3)
+- Flutter
+- Supabase
+- Polygon PoS
+- Solidity
+- OpenZeppelin
+- Google AdMob
+- Firebase Cloud Messaging
 
----
+## 🪙 Token Information
 
-# 🛠 Technology Stack
+- Symbol: **VIK**
+- Standard: **ERC-20**
+- Blockchain: **Polygon PoS**
+- Decimals: **18**
+- Maximum Supply: **24,000,000 VIK**
 
-| Technology | Purpose |
-|------------|---------|
-| Flutter | Android Application |
-| Supabase | Backend & Database |
-| Polygon PoS | Blockchain Network |
-| Solidity | Smart Contract |
-| OpenZeppelin | ERC-20 Standard |
-| Google AdMob | Rewarded Ads |
-| Firebase Cloud Messaging | Push Notifications |
+## 📂 Repository Structure
 
----
+```text
+.
+├── assets/
+├── images/
+├── docs/
+├── LICENSE
+└── README.md
+```
 
-# 🪙 VIK Token
+## 🔒 Security
 
-| Property | Value |
-|----------|-------|
-| Token Name | Vikasa Network |
-| Symbol | VIK |
-| Blockchain | Polygon PoS |
-| Token Standard | ERC-20 |
-| Decimals | 18 |
-| Maximum Supply | 24,000,000 VIK |
-| Supply Model | Fixed Supply |
+- Verified PolygonScan Contract
+- Blockspot Listing
+- GoPlus Security Scan
+- Public Documentation
+- Independent Audit (Planned)
 
-# 📄 License
+## 🛣 Roadmap
 
-Copyright © 2026 Vikasa Network.
+### Phase 1
+- Android App
+- Daily Rewards
+- Token Lock
+- Referrals
 
-This repository is provided for transparency and informational purposes.
+### Phase 2
+- KYC
+- Trust Wallet
+- CoinGecko
+- CoinMarketCap
+- iOS App
 
-All Rights Reserved.
+### Phase 3
+- Liquidity
+- Smart Contract Audit
+- Withdrawals
+- DAO Governance
 
-See the LICENSE file for details.
-
----
-
-# ⚠️ Disclaimer
-
-VIK is a utility token intended for participation within the Vikasa Network ecosystem.
-
-Nothing contained in this repository constitutes financial, investment, legal, or tax advice.
-
-Participation in blockchain ecosystems involves technical, operational, and market risks.
-
-Users should conduct their own independent research before interacting with blockchain applications or digital assets.
-
-
-## Smart Contract
+## 🔐 Smart Contract
 
 ```text
 0x2921d67ac78ebda0020f952e51e931ed125e00c1
+```
+
+## ⚠️ Disclaimer
+
+VIK is a utility token intended for participation within the Vikasa Network ecosystem. This repository is for informational purposes only.
+
+## 📄 License
+
+Copyright © 2026 Vikasa Network.
+
+## 📬 Contact
+
+Website: https://www.vikasanetwork.com
+
+Email: info@vikasanetwork.com
+
+GitHub: https://github.com/vikasanetwork
+
+Telegram: https://t.me/vikasanetwork
+
+X: https://x.com/vikasanetwork
