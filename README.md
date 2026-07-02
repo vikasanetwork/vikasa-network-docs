@@ -82,6 +82,7 @@ Powered by the **VIK utility token**, the ecosystem rewards users for completing
 | 📱 Google Play | https://play.google.com/store/apps/details?id=com.vikasa.app |
 | 📖 Whitepaper | https://www.vikasanetwork.com/whitepaper.pdf |
 | 🔗 PolygonScan | https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1 |
+| Blockspot | https://blockspot.io/coin/vikasa-network-vik/ |
 | 💻 GitHub | https://github.com/vikasanetwork/vikasa-network-docs |
 | 🐦 X | https://x.com/vikasanetwork |
 | 💼 LinkedIn | https://www.linkedin.com/company/vikasanetwork |
