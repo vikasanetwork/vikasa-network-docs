@@ -195,7 +195,12 @@ The Vikasa Network name, logo, brand assets, and documentation in this repositor
 
 ## 📬 Contact
 
-- 🌐 Website: https://www.vikasanetwork.com
-- 📧 Email: info@vikasanetwork.com
-- 💬 Telegram: https://t.me/vikasanetwork
-- 🐦 X: https://x.com/vikasanetwork
+📧 Support: support@vikasanetwork.com
+
+🌐 Website: https://www.vikasanetwork.com
+
+📱 Android App:
+https://play.google.com/store/apps/details?id=com.vikasa.app
+
+💬 Telegram:
+https://t.me/vikasanetwork
