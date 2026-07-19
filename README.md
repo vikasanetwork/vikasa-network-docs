@@ -1,6 +1,3 @@
-
-# Vikasa Network (VIK)
-
 <p align="center">
   <img src="assets/logo512.png" width="180" alt="Vikasa Network Logo">
 </p>
@@ -16,12 +13,14 @@
 <a href="https://github.com/vikasanetwork/vikasa-network-docs">Documentation</a>
 </p>
 
-![Blockchain](https://img.shields.io/badge/Blockchain-Polygon-8247E5)
-![Token](https://img.shields.io/badge/Token-VIK-success)
-![ERC20](https://img.shields.io/badge/ERC--20-OpenZeppelin-blue)
-![Android](https://img.shields.io/badge/Android-Live-brightgreen)
-![Contract](https://img.shields.io/badge/Contract-Verified-success)
-![Blockspot](https://img.shields.io/badge/Blockspot-Verified-blue)
+<p align="center">
+<img src="https://img.shields.io/badge/Blockchain-Polygon-8247E5" alt="Blockchain">
+<img src="https://img.shields.io/badge/Token-VIK-success" alt="Token">
+<img src="https://img.shields.io/badge/ERC--20-OpenZeppelin-blue" alt="ERC20">
+<img src="https://img.shields.io/badge/Android-Live-brightgreen" alt="Android">
+<img src="https://img.shields.io/badge/Contract-Verified-success" alt="Contract">
+<img src="https://img.shields.io/badge/Blockspot-Verified-blue" alt="Blockspot">
+</p>
 
 ---
 
@@ -30,6 +29,14 @@
 Vikasa Network is a Polygon-powered Web3 rewards ecosystem where users earn **VIK** through daily rewards, missions, referrals, community participation and other in-app activities.
 
 The project focuses on transparency, verified smart contracts, and sustainable ecosystem growth.
+
+---
+
+# App Preview
+
+| Home | Earn | Token Lock | Wallet | Referrals |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="images/home.png" width="140" alt="Home"> | <img src="images/earn.png" width="140" alt="Earn"> | <img src="images/stake.png" width="140" alt="Token Lock"> | <img src="images/wallet.png" width="140" alt="Wallet"> | <img src="images/reffer.png" width="140" alt="Referrals"> |
 
 ---
 
@@ -147,6 +154,7 @@ Allocation wallets and vesting proof will be published before withdrawals and li
 - PolygonScan: https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
 - GitHub: https://github.com/vikasanetwork/vikasa-network-docs
 - Blockspot: https://blockspot.io/coin/vikasa-network-vik/
+- X (Twitter): https://x.com/vikasanetwork
 - Telegram: https://t.me/vikasanetwork
 - LinkedIn: https://www.linkedin.com/company/vikasanetwork
 - Instagram: https://www.instagram.com/vikasanetwork
@@ -168,3 +176,4 @@ Copyright © 2026 Vikasa Network. All Rights Reserved.
 # Contact
 
 **Support:** support@vikasanetwork.com
+**General & Partnerships:** info@vikasanetwork.com
