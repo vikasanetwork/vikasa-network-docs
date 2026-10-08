@@ -77,6 +77,7 @@ External withdrawals are not currently available in Phase 1. Future withdrawal f
 | Uniswap V4 Pool | ✅ Live |
 | GeckoTerminal | ✅ Verified |
 | Uniswap Default Token List PR | 🟡 Pending Review |
+| Metamask Token List PR | 🟡 Pending Review |
 | Audit Forge Assessment | ✅ Completed |
 | Quantum Assessment | ✅ Completed |
 | Professional Manual Audit | 🔜 Planned |
