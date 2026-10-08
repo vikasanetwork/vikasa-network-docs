@@ -15,38 +15,21 @@ Vikasa Network (VIK)
 ```{=html}
 <p align="center">
 ```
-`<strong>`{=html}A Polygon-based Web3 Rewards
-Ecosystem`</strong>`{=html}
+`<strong>`{=html}A Polygon-based Web3 Rewards Ecosystem`</strong>`{=html}
 ```{=html}
 </p>
 ```
 ```{=html}
 <p align="center">
 ```
-`<a href="https://www.vikasanetwork.com">`{=html}Website`</a>`{=html} •
-`<a href="https://play.google.com/store/apps/details?id=com.vikasa.app">`{=html}Android
-App`</a>`{=html} •
-`<a href="https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1">`{=html}Verified
-Contract`</a>`{=html} •
-`<a href="https://www.geckoterminal.com/polygon_pos/pools/0x03b1200486d67e92cf535503a4a8f7828005d1f3">`{=html}GeckoTerminal`</a>`{=html}
-•
-`<a href="https://blockspot.io/coin/vikasa-network-vik/">`{=html}Blockspot`</a>`{=html}
-•
-`<a href="https://github.com/vikasanetwork/vikasa-network-docs">`{=html}Documentation`</a>`{=html}
+`<a href="https://www.vikasanetwork.com">`{=html}Website`</a>`{=html} • `<a href="https://play.google.com/store/apps/details?id=com.vikasa.app">`{=html}Android App`</a>`{=html} • `<a href="https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1">`{=html}Verified Contract`</a>`{=html} • `<a href="https://www.geckoterminal.com/polygon_pos/pools/0x03b1200486d67e92cf535503a4a8f7828005d1f3">`{=html}GeckoTerminal`</a>`{=html} • `<a href="https://blockspot.io/coin/vikasa-network-vik/">`{=html}Blockspot`</a>`{=html} • `<a href="https://github.com/vikasanetwork/vikasa-network-docs">`{=html}Documentation`</a>`{=html}
 ```{=html}
 </p>
 ```
 ```{=html}
 <p align="center">
 ```
-`<img src="https://img.shields.io/badge/Blockchain-Polygon-8247E5" alt="Blockchain">`{=html}
-`<img src="https://img.shields.io/badge/Token-VIK-success" alt="Token">`{=html}
-`<img src="https://img.shields.io/badge/ERC--20-OpenZeppelin-blue" alt="ERC20">`{=html}
-`<img src="https://img.shields.io/badge/Android-Live-brightgreen" alt="Android">`{=html}
-`<img src="https://img.shields.io/badge/Contract-Verified-success" alt="Contract">`{=html}
-`<img src="https://img.shields.io/badge/Blockspot-Verified-blue" alt="Blockspot">`{=html}
-`<img src="https://img.shields.io/badge/GeckoTerminal-Verified-success" alt="GeckoTerminal">`{=html}
-`<img src="https://img.shields.io/badge/DEX%20Liquidity-Live-blue" alt="DEX Liquidity">`{=html}
+`<img src="https://img.shields.io/badge/Blockchain-Polygon-8247E5" alt="Blockchain">`{=html} `<img src="https://img.shields.io/badge/Token-VIK-success" alt="Token">`{=html} `<img src="https://img.shields.io/badge/ERC--20-OpenZeppelin-blue" alt="ERC20">`{=html} `<img src="https://img.shields.io/badge/Android-Live-brightgreen" alt="Android">`{=html} `<img src="https://img.shields.io/badge/Contract-Verified-success" alt="Contract">`{=html} `<img src="https://img.shields.io/badge/Blockspot-Verified-blue" alt="Blockspot">`{=html} `<img src="https://img.shields.io/badge/GeckoTerminal-Verified-success" alt="GeckoTerminal">`{=html} `<img src="https://img.shields.io/badge/DEX%20Liquidity-Live-blue" alt="DEX Liquidity">`{=html}
 ```{=html}
 </p>
 ```
@@ -55,19 +38,13 @@ Contract`</a>`{=html} •
 
 # Overview
 
-Vikasa Network is a Polygon-based Web3 rewards ecosystem where users
-participate in daily activities, missions, referrals, community features
-and other eligible in-app activities to receive VIK rewards.
+Vikasa Network is a Polygon-based Web3 rewards ecosystem where users participate in daily activities, missions, referrals, community features and other eligible in-app activities to receive VIK rewards.
 
-The project focuses on transparent on-chain infrastructure, community
-participation and long-term ecosystem utility.
+The project focuses on transparent on-chain infrastructure, community participation and long-term ecosystem utility.
 
-VIK is an ERC-20 token deployed on Polygon PoS with a fixed maximum
-supply of **24,000,000 VIK**.
+VIK is an ERC-20 token deployed on Polygon PoS with a fixed maximum supply of **24,000,000 VIK**.
 
-External withdrawals are not currently available in Phase 1. Future
-withdrawal functionality is planned subject to security auditing, KYC,
-compliance and wallet-integration requirements.
+External withdrawals are not currently available in Phase 1. Future withdrawal functionality is planned subject to security auditing, KYC, compliance and wallet-integration requirements.
 
 ------------------------------------------------------------------------
 
@@ -139,15 +116,13 @@ The VIK token contract is deployed and verified on Polygon.
   Strategic Reserve                1,200,000 VIK           5%
   **Total**                   **24,000,000 VIK**     **100%**
 
-The Team & Advisors allocation is subject to the published 2-year
-vesting period.
+The Team & Advisors allocation is subject to the published 2-year vesting period.
 
 ------------------------------------------------------------------------
 
 # DEX Liquidity
 
-VIK liquidity is currently available on Polygon through
-decentralized-exchange pools.
+VIK liquidity is currently available on Polygon through decentralized-exchange pools.
 
 ## Uniswap V3
 
@@ -163,24 +138,17 @@ https://www.geckoterminal.com/polygon_pos/pools/0x03b1200486d67e92cf535503a4a8f7
 
 **✅ Verified**
 
-GeckoTerminal provides DEX market data including liquidity, trading
-activity, pool information and related market statistics.
+GeckoTerminal provides DEX market data including liquidity, trading activity, pool information and related market statistics.
 
-> **Important:** GeckoTerminal verification or pool availability does
-> not constitute an endorsement, investment recommendation, price
-> guarantee, liquidity guarantee, or security certification.
+> **Important:** GeckoTerminal verification or pool availability does not constitute an endorsement, investment recommendation, price guarantee, liquidity guarantee, or security certification.
 
 ## Uniswap V4
 
-VIK/USDT liquidity is also available through an existing Uniswap V4
-position on Polygon.
+VIK/USDT liquidity is also available through an existing Uniswap V4 position on Polygon.
 
-Liquidity is being developed progressively as part of the project's
-ecosystem growth strategy.
+Liquidity is being developed progressively as part of the project's ecosystem growth strategy.
 
-> **Important:** DEX liquidity availability does not represent a
-> guarantee of token value, price stability, returns or future market
-> performance.
+> **Important:** DEX liquidity availability does not represent a guarantee of token value, price stability, returns or future market performance.
 
 ------------------------------------------------------------------------
 
@@ -195,15 +163,13 @@ VIK is publicly tracked on GeckoTerminal.
 
 https://www.geckoterminal.com/polygon_pos/pools/0x03b1200486d67e92cf535503a4a8f7828005d1f3
 
-Market data can change continuously and should be independently verified
-before making any decision.
+Market data can change continuously and should be independently verified before making any decision.
 
 ------------------------------------------------------------------------
 
 # Uniswap Token List
 
-Vikasa Network has submitted a token-list pull request to the official
-Uniswap default-token-list repository.
+Vikasa Network has submitted a token-list pull request to the official Uniswap default-token-list repository.
 
 -   **PR:** #2520
 -   **Repository:** https://github.com/Uniswap/default-token-list
@@ -216,8 +182,7 @@ Uniswap default-token-list repository.
 
 https://github.com/Uniswap/default-token-list/pull/2520
 
-The PR has passed the available automated checks and remains subject to
-the required maintainer review and approval workflow.
+The PR has passed the available automated checks and remains subject to the required maintainer review and approval workflow.
 
 Inclusion in the Uniswap default token list is not currently confirmed.
 
@@ -244,15 +209,13 @@ Current verification and security resources include:
 
 https://www.vikasanetwork.com/security
 
-The project does not represent automated security assessments as
-substitutes for a professional manual smart-contract audit.
+The project does not represent automated security assessments as substitutes for a professional manual smart-contract audit.
 
 ------------------------------------------------------------------------
 
 # Audit Forge Security Assessment
 
-VIKASA Network underwent an automated multi-engine smart-contract
-security assessment through Audit Forge.
+VIKASA Network underwent an automated multi-engine smart-contract security assessment through Audit Forge.
 
 ### Result
 
@@ -266,8 +229,7 @@ security assessment through Audit Forge.
   Low                     10
   Informational           34
 
-The assessment used multiple automated security-analysis engines and
-identified no Critical, High or Medium findings.
+The assessment used multiple automated security-analysis engines and identified no Critical, High or Medium findings.
 
 ### Report
 
@@ -288,8 +250,7 @@ The assessment reviewed areas including:
 -   Market conditions
 -   On-chain characteristics
 
-The assessment identified liquidity and market-related considerations
-that are separate from source-code security.
+The assessment identified liquidity and market-related considerations that are separate from source-code security.
 
 ------------------------------------------------------------------------
 
@@ -297,9 +258,7 @@ that are separate from source-code security.
 
 Audit Forge and Quantum Audit are **automated security assessments**.
 
-They are **not professional manual smart-contract audits** and do not
-guarantee that the VIK smart contract or the wider Vikasa Network
-ecosystem is completely free from vulnerabilities.
+They are **not professional manual smart-contract audits** and do not guarantee that the VIK smart contract or the wider Vikasa Network ecosystem is completely free from vulnerabilities.
 
 Automated assessments cannot guarantee protection against:
 
@@ -314,9 +273,7 @@ Automated assessments cannot guarantee protection against:
 -   Liquidity risks
 -   Market risks
 
-A professional manual third-party smart-contract audit remains a future
-security milestone as the ecosystem grows and additional functionality
-is introduced.
+A professional manual third-party smart-contract audit remains a future security milestone as the ecosystem grows and additional functionality is introduced.
 
 ------------------------------------------------------------------------
 
@@ -338,8 +295,7 @@ is introduced.
 -   KYC Module
 -   Ecosystem Wallet Interface
 
-Some features, including external withdrawals and additional wallet
-functionality, remain planned for future phases.
+Some features, including external withdrawals and additional wallet functionality, remain planned for future phases.
 
 ------------------------------------------------------------------------
 
@@ -347,23 +303,19 @@ functionality, remain planned for future phases.
 
 ### 1. Create an Account
 
-Users can create a VIKASA account and access the core application
-without purchasing VIK.
+Users can create a VIKASA account and access the core application without purchasing VIK.
 
 ### 2. Participate
 
-Users can participate in eligible daily activities, rewarded
-advertisements, social tasks, missions and referral activities.
+Users can participate in eligible daily activities, rewarded advertisements, social tasks, missions and referral activities.
 
 ### 3. Receive VIK Rewards
 
-Eligible activities can result in VIK rewards credited within the VIKASA
-ecosystem.
+Eligible activities can result in VIK rewards credited within the VIKASA ecosystem.
 
 ### 4. Participate in the Ecosystem
 
-Users can access community features, leaderboards, referrals and VIK
-token-locking functionality.
+Users can access community features, leaderboards, referrals and VIK token-locking functionality.
 
 External withdrawals are not currently available in Phase 1.
 
@@ -382,8 +334,7 @@ Current lock periods include:
 
 Token locking is designed around ecosystem participation and standing.
 
-> **Important:** VIK locking is not presented as a guaranteed-interest
-> or guaranteed-APY product. No fixed financial return is promised.
+**Important:** VIK locking is not presented as a guaranteed-interest or guaranteed-APY product. No fixed financial return is promised.
 
 ------------------------------------------------------------------------
 
@@ -431,8 +382,7 @@ Planned development includes:
 -   Additional wallet ecosystem support
 -   Premium membership features
 
-Withdrawal functionality remains subject to security, compliance and
-technical readiness.
+Withdrawal functionality remains subject to security, compliance and technical readiness.
 
 ------------------------------------------------------------------------
 
@@ -447,28 +397,21 @@ Planned ecosystem expansion includes:
 -   CEX listing applications
 -   Additional ecosystem integrations
 
-These are planned milestones and are not guarantees of future listings,
-integrations or market availability.
+These are planned milestones and are not guarantees of future listings, integrations or market availability.
 
 ------------------------------------------------------------------------
 
 # Official Links
 
 -   **Website:** https://www.vikasanetwork.com
--   **Android App:**
-    https://play.google.com/store/apps/details?id=com.vikasa.app
+-   **Android App:** https://play.google.com/store/apps/details?id=com.vikasa.app
 -   **Whitepaper:** https://www.vikasanetwork.com/whitepaper.pdf
--   **PolygonScan:**
-    https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
--   **GitHub Documentation:**
-    https://github.com/vikasanetwork/vikasa-network-docs
+-   **PolygonScan:** https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
+-   **GitHub Documentation:** https://github.com/vikasanetwork/vikasa-network-docs
 -   **Blockspot:** https://blockspot.io/coin/vikasa-network-vik/
--   **GeckoTerminal:**
-    https://www.geckoterminal.com/polygon_pos/pools/0x03b1200486d67e92cf535503a4a8f7828005d1f3
--   **Uniswap Default Token List PR:**
-    https://github.com/Uniswap/default-token-list/pull/2520
--   **Audit Forge:**
-    https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
+-   **GeckoTerminal:** https://www.geckoterminal.com/polygon_pos/pools/0x03b1200486d67e92cf535503a4a8f7828005d1f3
+-   **Uniswap Default Token List PR:** https://github.com/Uniswap/default-token-list/pull/2520
+-   **Audit Forge:** https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
 -   **Security:** https://www.vikasanetwork.com/security
 -   **X:** https://x.com/vikasanetwork
 -   **Telegram:** https://t.me/vikasanetwork
@@ -479,8 +422,7 @@ integrations or market availability.
 
 # Documentation
 
-The public documentation repository contains project documentation,
-token information, assets and supporting materials.
+The public documentation repository contains project documentation, token information, assets and supporting materials.
 
 ### GitHub
 
@@ -540,18 +482,13 @@ ERC-20
 
 VIK is a utility token within the Vikasa Network ecosystem.
 
-Nothing in this README constitutes financial, investment, legal, tax or
-other professional advice.
+Nothing in this README constitutes financial, investment, legal, tax or other professional advice.
 
 Security assessments do not guarantee complete security.
 
-DEX liquidity, GeckoTerminal data, token-list submissions, exchange
-applications and roadmap items do not guarantee token value, liquidity,
-future returns, exchange listings or market performance.
+DEX liquidity, GeckoTerminal data, token-list submissions, exchange applications and roadmap items do not guarantee token value, liquidity, future returns, exchange listings or market performance.
 
-Users should independently verify contract addresses, liquidity,
-security information and official project channels before interacting
-with VIK.
+Users should independently verify contract addresses, liquidity, security information and official project channels before interacting with VIK.
 
 ------------------------------------------------------------------------
 
