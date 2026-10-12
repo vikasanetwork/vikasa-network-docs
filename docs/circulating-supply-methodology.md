@@ -18,7 +18,8 @@ Circulating supply is calculated using the verified on-chain total supply, less 
 |---|---|---:|---|
 | 1 | Treasury reserve | 8,007,250.0000 | Proposed exclusion; supporting evidence required |
 | 2 | Founder wallet | 5,999,997.5000 | Included; available to transfer |
-| 4 | Project reserve / deployer | 4,465,904.9013 | Proposed exclusion; supporting evidence required |
+| 4 | Project reserve | 4,498,185.6250 | Proposed exclusion; supporting evidence required |
+| 5 | Deployer | 4,465,904.9013 | Proposed exclusion; supporting evidence required |
 | 5 | VIKASA Team / Support | 1,000,010.0000 | Included pending verification of ownership, purpose, and restrictions
 | 7 | Uniswap V4 Pool Manager | 9,837.5076 | Under review |
 
