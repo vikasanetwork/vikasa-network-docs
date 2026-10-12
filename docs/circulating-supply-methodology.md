@@ -28,6 +28,17 @@ Using the stated total supply and provisionally excluding only the treasury and 
 
 24,000,000 − 8,007,250 − 4,465,904.9013 = 11,526,845.0987 VIK.
 
+## Treasury and Project Reserve Disclosure
+
+The VIKASA Network project identifies the following wallets as treasury or project-reserve candidates:
+
+- **Treasury wallet:** 0x1B7ea44a87937e20A92C751bea1822a1c23623F2
+- **Project-reserve/deployer wallet:** 0xED2884e3545307a8EF42e0539c316aEa86cDc9Ee
+
+The project intends to use these allocations for documented ecosystem development, rewards, operations, and other published project purposes.
+
+The balances and their non-circulating classifications must be verified against current on-chain data and supporting allocation records before they are excluded from circulating supply. Wallet ownership or a wallet label alone does not establish that tokens are non-circulating.
+
 **This figure is provisional and is not a verified final circulating supply.** It must be reconciled against current on-chain balances, total supply, and evidence supporting each exclusion.
 
 ## Verification and Updates
