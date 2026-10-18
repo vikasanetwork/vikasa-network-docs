@@ -108,13 +108,23 @@ The VIK token contract is deployed and verified on Polygon.
 | Allocation | Amount | Percentage |
 |------------|-------:|-----------:|
 | Community Rewards | 12,000,000 VIK | 50% |
-| Liquidity & Listings | 4,800,000 VIK | 20% |
+| Liquidity & Exchange Listings | 4,800,000 VIK | 20% |
 | Ecosystem & Development | 3,600,000 VIK | 15% |
 | Team & Advisors | 2,400,000 VIK | 10% |
 | Strategic Reserve | 1,200,000 VIK | 5% |
 | **Total** | **24,000,000 VIK** | **100%** |
 
 The Team & Advisors allocation is subject to the published 2-year vesting period.
+
+### Liquidity & Exchange Listings Wallet
+
+The Liquidity & Exchange Listings allocation is managed through the same deployed wallet used for liquidity-related purposes:
+
+- **Wallet address:** `0xED2884e3545307a8EF42e0539c316aEa86cDc9Ee`
+- **Latest reported wallet balance:** 4,771,322.4013 VIK
+- **Planned allocation:** 4,800,000 VIK (20% of maximum supply)
+
+The reported wallet balance is 28,677.5987 VIK below the planned allocation. The balance and transaction history should be reconciled before this figure is treated as a final allocation accounting statement. The wallet address and balance do not by themselves prove that tokens are locked, reserved exclusively for listings, or that any exchange listing is secured.
 
 ---
 
@@ -143,6 +153,8 @@ GeckoTerminal provides DEX market data including liquidity, trading activity, po
 ## Uniswap V4
 
 VIK/USDT liquidity is also available through an existing Uniswap V4 position on Polygon.
+
+The same deployed wallet listed in the Token Allocation section is used for liquidity-related purposes. Wallet balances can change as liquidity positions are funded, adjusted, or withdrawn; consult the public PolygonScan transaction history and current pool data for the latest information.
 
 Liquidity is being developed progressively as part of the project's ecosystem growth strategy.
 
