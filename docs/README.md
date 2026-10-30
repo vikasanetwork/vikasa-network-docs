@@ -16,6 +16,7 @@ The official documentation includes:
 - **Smart Contract** — VIK token contract information, technical characteristics, and verification details.
 - **Security** — Security practices, risk disclosures, responsible disclosure, and security information.
 - **Transparency** — Public project, token, wallet, liquidity, and ecosystem transparency information.
+- **Circulating Supply Methodology** — Methodology and reconciliation notes for evaluating VIK circulating supply. Figures remain provisional until the relevant wallet balances, lock records, exclusions, and on-chain data are reconciled.
 - **Audit Status** — Published automated security assessments and current audit status.
 - **Ecosystem** — Overview of the VIKASA Network ecosystem and its components.
 - **Verification** — Official contract, website, documentation, and project verification references.
