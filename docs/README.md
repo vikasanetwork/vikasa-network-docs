@@ -26,11 +26,11 @@ The official documentation includes:
 
 ## Security Assessments
 
-Vikasa Network has completed automated security assessments, including:
+Vikasa Network has published automated security assessments, including:
 
 ### Audit Forge
 
-**Result:** 98/100 — A / Robust / Low Risk
+**Reported result:** 98/100 — A / Robust / Low Risk
 
 Report:
 
@@ -38,11 +38,17 @@ https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
 
 ### Quantum Audit
 
-Automated assessment covering smart-contract configuration, ownership controls, liquidity, holder distribution, market conditions, and other on-chain characteristics.
+**Reported result:** 84/100 — High Risk (assessment dated 29 October 2026)
 
-https://quantumaudit.app/
+The published assessment identified liquidity and market-related risk considerations, including liquidity-lock status, available market liquidity, holder concentration, and ownership/control considerations.
 
-> **Important:** These are automated security assessments and are not professional manual smart-contract audits. They do not guarantee that the VIK smart contract or the wider Vikasa Network ecosystem is completely free from vulnerabilities.
+Report:
+
+https://quantumaudit.app/token/vikasanetwork-poly-0b9a6267
+
+> **Important:** These are automated security assessments, not professional manual smart-contract audits. Their scores and findings reflect the methodologies and information available to the assessment platforms at the time of analysis. They do not guarantee that the VIK smart contract or the wider Vikasa Network ecosystem is free from vulnerabilities.
+
+The Quantum Audit findings are time-specific observations. Current liquidity, LP-token ownership, holder distribution, and trading conditions should be independently verified on-chain before describing them as current or resolved.
 
 ---
 
@@ -77,8 +83,10 @@ Vikasa Network aims to maintain documentation that is:
 
 Documentation may be updated as the project, application, smart contracts, security assessments, and ecosystem features evolve.
 
+Security-related claims should be supported by publicly verifiable evidence. A reported finding should not be marked as fixed until the relevant change or on-chain state has been independently verified.
+
 ---
 
 **Maintained by:** Vikasa Network
 
-**Last Updated:** 8 October 2026
+**Last Updated:** 30 October 2026
