@@ -7,34 +7,40 @@
 **Token Standard:** ERC-20  
 **Decimals:** 18  
 **Maximum Supply:** 24,000,000 VIK  
-**Version:** 2.0  
-**Last Updated:** 8 October 2026
+**Version:** 2.1
 
-Vikasa Network is committed to transparency, security, responsible blockchain development, and public verification.
+**Last Updated:** 30 October 2026
 
-This document provides an overview of the VIK smart contract, publicly verifiable security information, automated security assessments, liquidity and market-risk considerations, responsible disclosure practices, and future security milestones.
+Vikasa Network is committed to transparency, security, responsible
+blockchain development, and public verification.
 
----
+This document provides an overview of the VIK smart contract, publicly
+verifiable security information, automated security assessments,
+liquidity and market-risk considerations, responsible disclosure
+practices, and future security milestones.
+
+------------------------------------------------------------------------
 
 ## 1. Smart Contract
 
-| Property | Value |
-|---|---|
-| **Token** | Vikasa Network (VIK) |
-| **Blockchain** | Polygon PoS |
-| **Token Standard** | ERC-20 |
+| Property             | Value                                        |
+|----------------------|----------------------------------------------|
+| **Token**            | Vikasa Network (VIK)                         |
+| **Blockchain**       | Polygon PoS                                  |
+| **Token Standard**   | ERC-20                                       |
 | **Contract Address** | `0x2921d67ac78ebda0020f952e51e931ed125e00c1` |
-| **Decimals** | 18 |
-| **Maximum Supply** | 24,000,000 VIK |
-| **Supply Type** | Fixed Supply |
+| **Decimals**         | 18                                           |
+| **Maximum Supply**   | 24,000,000 VIK                               |
+| **Supply Type**      | Fixed Supply                                 |
 
 ### Contract Address
 
-```text
+``` text
 0x2921d67ac78ebda0020f952e51e931ed125e00c1
 ```
 
-Users should always verify the contract address through the official Vikasa Network website and PolygonScan before interacting with VIK.
+Users should always verify the contract address through the official
+Vikasa Network website and PolygonScan before interacting with VIK.
 
 ### Official Contract Reference
 
@@ -44,11 +50,12 @@ https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
 
 https://www.vikasanetwork.com/
 
----
+------------------------------------------------------------------------
 
 ## 2. Smart Contract Security
 
-The deployed VIK smart contract has the following publicly verifiable characteristics:
+The deployed VIK smart contract has the following publicly verifiable
+characteristics:
 
 - Source code is verified on PolygonScan.
 - Maximum supply is fixed at 24,000,000 VIK.
@@ -59,29 +66,42 @@ The deployed VIK smart contract has the following publicly verifiable characteri
 - No transfer tax.
 - No trading pause functionality.
 - No self-destruct function.
-- The contract does not provide an owner function to arbitrarily modify user balances.
+- The contract does not provide an owner function to arbitrarily modify
+  user balances.
 - ERC-20 token standard.
 - Deployed on Polygon PoS.
 
-These characteristics should be independently verified from the deployed contract and current on-chain data.
+These characteristics should be independently verified from the deployed
+contract and current on-chain data.
 
-Security characteristics may be assessed differently by different security-analysis platforms. Users should therefore review the actual contract and published assessment reports rather than relying solely on a security score.
+Security characteristics may be assessed differently by different
+security-analysis platforms. Users should therefore review the actual
+contract and published assessment reports rather than relying solely on
+a security score.
 
----
+------------------------------------------------------------------------
 
 ## 3. Public Security Assessments
 
-VIKASA Network has published automated security assessments to improve transparency and allow users, investors, exchanges, and community members to independently review security findings.
+VIKASA Network has published automated security assessments to improve
+transparency and allow users, investors, exchanges, and community
+members to independently review security findings.
 
-The assessments are performed by external automated security-analysis platforms.
+The assessments are performed by external automated security-analysis
+platforms.
 
 ### Important
 
-**Audit Forge and Quantum Audit are automated security assessments. They are not professional manual smart-contract audits and do not guarantee that the VIK contract or the wider VIKASA ecosystem is completely free from vulnerabilities.**
+**Audit Forge and Quantum Audit are automated security assessments. They
+are not professional manual smart-contract audits and do not guarantee
+that the VIK contract or the wider VIKASA ecosystem is completely free
+from vulnerabilities.**
 
-Different security-analysis platforms may produce different results because they use different methodologies and examine different categories of risk.
+Different security-analysis platforms may produce different results
+because they use different methodologies and examine different
+categories of risk.
 
----
+------------------------------------------------------------------------
 
 ## 4. Audit Forge Security Assessment
 
@@ -95,13 +115,13 @@ Different security-analysis platforms may produce different results because they
 
 The published Audit Forge assessment reported:
 
-| Severity | Findings |
-|---|---:|
-| **Critical** | 0 |
-| **High** | 0 |
-| **Medium** | 0 |
-| **Low** | 10 |
-| **Informational** | 34 |
+| Severity          | Findings |
+|-------------------|---------:|
+| **Critical**      |        0 |
+| **High**          |        0 |
+| **Medium**        |        0 |
+| **Low**           |       10 |
+| **Informational** |       34 |
 
 The assessment used multiple automated security-analysis engines.
 
@@ -111,7 +131,8 @@ https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
 
 ### Interpretation
 
-The 98/100 result indicates a strong result within the Audit Forge automated assessment methodology.
+The 98/100 result indicates a strong result within the Audit Forge
+automated assessment methodology.
 
 However, the result should **not** be interpreted as:
 
@@ -122,15 +143,53 @@ However, the result should **not** be interpreted as:
 - A guarantee against private-key compromise.
 - A guarantee against future application changes.
 
-The assessment should be considered an automated security-analysis result and one part of VIKASA Network's overall security and transparency process.
+The assessment should be considered an automated security-analysis
+result and one part of VIKASA Network’s overall security and
+transparency process.
 
----
+------------------------------------------------------------------------
 
 ## 5. Quantum Audit
 
-VIKASA Network has also undergone a separate automated assessment using Quantum Audit.
+VIKASA Network has also undergone a separate automated assessment using
+Quantum Audit.
 
-Quantum Audit evaluates multiple aspects of a token and its on-chain ecosystem, including areas such as:
+### Published Report
+
+**Report:** https://quantumaudit.app/token/vikasanetwork-poly-0b9a6267  
+**Assessment date:** 29 October 2026  
+**Published score:** 84/100 — High Risk  
+**Assessment type:** Automated on-chain, contract and market-risk
+assessment
+
+The published report is a dated snapshot. Its score and on-chain
+measurements may change after the assessment date or when the platform
+re-checks the token. The score is not a professional manual audit or a
+guarantee that the token is safe or unsafe.
+
+### Findings Reported on 29 October 2026
+
+The Quantum Audit report recorded the following observations at the time
+of assessment:
+
+| Reported item             | Observation in the 29 October 2026 report                                                                                                                                                                                                  | Remediation status                                                                                                       |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| Liquidity-provider tokens | The analysed pool’s LP position was reported as unlocked; the report attributed 100% of the analysed pool’s LP to an unlocked holder identified as the deployer/owner or a privileged address.                                             | **Open — verify current pool and LP ownership; publish lock proof only after an actual, independently verifiable lock.** |
+| Pool liquidity            | Approximately **US\$291** was reported for the analysed pool.                                                                                                                                                                              | **Snapshot only — recheck current liquidity before publishing current figures.**                                         |
+| 24-hour trading volume    | **US\$0** was reported for the analysed pool.                                                                                                                                                                                              | **Snapshot only — recheck current market data.**                                                                         |
+| Holder concentration      | The report recorded 19 holders and stated that the top 10 represented 100% of supply in total; its effective-concentration figure was 88.0%, with approximately 80.0% held by wallets and 19.9% by contracts (rounding may affect totals). | **Open — reconcile significant wallets and publish a clear allocation explanation.**                                     |
+| Ownership                 | The report recorded that ownership was retained rather than renounced.                                                                                                                                                                     | **Open — document the purpose of owner permissions and verify the current owner and available functions.**               |
+
+These are findings reported by Quantum Audit, not independently verified
+current measurements in this document. Before describing any finding as
+fixed, compare it with current on-chain data and retain public evidence
+such as transaction hashes, locker records, pool addresses and relevant
+explorer pages. Do not treat renouncing ownership as an automatic fix;
+assess its consequences and suitability before making any irreversible
+change.
+
+Quantum Audit evaluates multiple aspects of a token and its on-chain
+ecosystem, including areas such as:
 
 - Smart-contract configuration.
 - Ownership and administrative controls.
@@ -142,20 +201,29 @@ Quantum Audit evaluates multiple aspects of a token and its on-chain ecosystem, 
 
 ### Quantum Assessment
 
-The Quantum assessment identified liquidity and market conditions as important risk considerations at the time of analysis.
+The Quantum assessment published on 29 October 2026 reported an **84/100
+— High Risk** score and identified liquidity, market activity, holder
+concentration and retained ownership as risk considerations at the time
+of analysis.
 
-In particular, the assessment highlighted:
+In particular, the report recorded:
 
-- Liquidity-lock status.
-- Available market liquidity.
-- Holder concentration.
-- Ownership/control considerations.
+- The analysed pool’s LP position was not locked.
+- Approximately US\$291 in pool liquidity and US\$0 in 24-hour volume.
+- Top-10 holder concentration of 100% gross and 88.0% effective
+  concentration, according to the report’s methodology.
+- Ownership was retained.
+
+These figures are historical report values dated 29 October 2026; they
+must not be presented as current without rechecking the relevant
+on-chain sources.
 
 These factors are separate from source-code security.
 
 ### Important
 
-Quantum's risk assessment represents the state of the token and its on-chain ecosystem at the time of analysis.
+Quantum’s risk assessment represents the state of the token and its
+on-chain ecosystem at the time of analysis.
 
 On-chain conditions can change as:
 
@@ -166,13 +234,15 @@ On-chain conditions can change as:
 - Liquidity is locked or unlocked.
 - Additional contracts or ecosystem components are introduced.
 
-Therefore, an on-chain risk assessment should be treated as a **time-specific snapshot**, not a permanent security certification.
+Therefore, an on-chain risk assessment should be treated as a
+**time-specific snapshot**, not a permanent security certification.
 
----
+------------------------------------------------------------------------
 
-## 6. Contract Security vs. Ecosystem Security
+## 6. Contract Security vs. Ecosystem Security
 
-A smart contract can have a strong source-code assessment while the wider ecosystem can still have other risks.
+A smart contract can have a strong source-code assessment while the
+wider ecosystem can still have other risks.
 
 VIKASA Network therefore separates security into multiple areas.
 
@@ -222,11 +292,26 @@ Includes:
 
 These areas should not be represented as one single security score.
 
----
+------------------------------------------------------------------------
 
 ## 7. Liquidity & Market Risk
 
-Smart-contract security does not automatically mean that market liquidity is secure.
+Smart-contract security does not automatically mean that market
+liquidity is secure.
+
+### Quantum Audit Snapshot — 29 October 2026
+
+Quantum Audit reported approximately **US\$291** in liquidity and
+**US\$0** in 24-hour trading volume for the analysed pool. It also
+reported that the pool’s LP position was not locked. These values are
+time-specific and are not a statement of current conditions.
+
+**Action required:** verify the exact pool address and LP-token/position
+ownership on-chain. If liquidity is later locked, publish the
+transaction and locker proof, the amount or position covered,
+beneficiary and unlock date. Do not state that liquidity is locked until
+anyone can independently verify the proof. A lock does not guarantee
+market depth, price stability or buyer demand.
 
 Users should independently verify the current:
 
@@ -241,19 +326,41 @@ Users should independently verify the current:
 
 Liquidity conditions can change at any time.
 
-VIKASA Network will publish verifiable liquidity-lock information when liquidity is locked, including relevant on-chain information where applicable.
+VIKASA Network will publish verifiable liquidity-lock information when
+liquidity is locked, including relevant on-chain information where
+applicable.
 
-No liquidity-lock claim should be considered valid unless it can be independently verified on-chain.
+No liquidity-lock claim should be considered valid unless it can be
+independently verified on-chain.
 
----
+------------------------------------------------------------------------
 
 ## 8. Holder Distribution
 
-Token holder distribution is an important part of blockchain transparency.
+Token holder distribution is an important part of blockchain
+transparency.
 
-Users should independently review the current holder distribution on PolygonScan before making decisions involving VIK.
+### Quantum Audit Snapshot — 29 October 2026
 
-Large wallet balances may represent different ecosystem purposes, including:
+The report recorded 19 holders and stated that the top 10 holders
+represented 100.0% of supply in aggregate. Its scoring methodology
+showed 88.0% effective concentration, with approximately 80.0%
+attributed to wallets and 19.9% to contracts. These are dated report
+figures; independently recheck current balances and the platform’s
+classifications before treating them as current.
+
+**Action required:** identify and document significant
+project-controlled wallets and contracts where appropriate (for example,
+treasury, rewards, liquidity, vesting or reserves). Do not label a
+wallet as belonging to a particular party unless that attribution is
+supported. A wallet balance alone does not prove that tokens are
+immediately available for sale.
+
+Users should independently review the current holder distribution on
+PolygonScan before making decisions involving VIK.
+
+Large wallet balances may represent different ecosystem purposes,
+including:
 
 - Community rewards.
 - Treasury.
@@ -264,45 +371,59 @@ Large wallet balances may represent different ecosystem purposes, including:
 - Liquidity.
 - Other operational purposes.
 
-A wallet balance alone does not establish whether tokens are immediately available for sale.
+A wallet balance alone does not establish whether tokens are immediately
+available for sale.
 
-Where applicable, VIKASA Network may publish additional information regarding the intended purpose of significant ecosystem wallets.
+Where applicable, VIKASA Network may publish additional information
+regarding the intended purpose of significant ecosystem wallets.
 
----
+------------------------------------------------------------------------
 
 ## 9. Ownership & Administrative Controls
 
-The VIK smart contract uses ownership controls for administrative functions supported by the deployed contract.
+The VIK smart contract uses ownership controls for administrative
+functions supported by the deployed contract.
 
 Administrative control is an important security consideration.
 
-Users should independently verify the current ownership status and available owner functions through PolygonScan.
+Users should independently verify the current ownership status and
+available owner functions through PolygonScan.
 
-Administrative-key security therefore remains an important operational responsibility.
+Administrative-key security therefore remains an important operational
+responsibility.
 
-VIKASA Network recommends strong protection of administrative credentials and private keys, including secure key storage, access controls, and appropriate authentication procedures.
+VIKASA Network recommends strong protection of administrative
+credentials and private keys, including secure key storage, access
+controls, and appropriate authentication procedures.
 
----
+------------------------------------------------------------------------
 
 ## 10. Professional Manual Audit Status
 
-VIKASA Network has completed automated security assessments, including the published Audit Forge assessment.
+VIKASA Network has completed automated security assessments, including
+the published Audit Forge assessment.
 
 However:
 
-> **VIKASA Network does not currently represent these automated assessments as a professional manual smart-contract audit.**
+> **VIKASA Network does not currently represent these automated
+> assessments as a professional manual smart-contract audit.**
 
-A professional manual security audit by a qualified third-party blockchain security firm remains a future security milestone as the ecosystem grows and additional functionality is introduced.
+A professional manual security audit by a qualified third-party
+blockchain security firm remains a future security milestone as the
+ecosystem grows and additional functionality is introduced.
 
-Any future professional manual audit will be published publicly when available.
+Any future professional manual audit will be published publicly when
+available.
 
-The project will not describe an automated assessment as a professional manual audit.
+The project will not describe an automated assessment as a professional
+manual audit.
 
----
+------------------------------------------------------------------------
 
 ## 11. Security Before Future Features
 
-Security requirements will be considered before introducing major functionality that increases user or ecosystem risk.
+Security requirements will be considered before introducing major
+functionality that increases user or ecosystem risk.
 
 Future security milestones may include additional review of:
 
@@ -317,13 +438,16 @@ Future security milestones may include additional review of:
 - External protocols.
 - Additional ecosystem infrastructure.
 
-New functionality may introduce new security risks and may require additional security assessment before deployment.
+New functionality may introduce new security risks and may require
+additional security assessment before deployment.
 
----
+------------------------------------------------------------------------
 
 ## 12. Responsible Disclosure
 
-If you discover a potential security vulnerability affecting VIKASA Network, please report it privately before publicly disclosing the issue.
+If you discover a potential security vulnerability affecting VIKASA
+Network, please report it privately before publicly disclosing the
+issue.
 
 Security reports should include, where possible:
 
@@ -336,7 +460,8 @@ Security reports should include, where possible:
 - Relevant wallet address.
 - Screenshots or supporting evidence.
 
-Please do not attempt to exploit a vulnerability beyond what is reasonably necessary to demonstrate the issue.
+Please do not attempt to exploit a vulnerability beyond what is
+reasonably necessary to demonstrate the issue.
 
 ### Security Contact
 
@@ -346,25 +471,29 @@ info@vikasanetwork.com
 **Website:**  
 https://www.vikasanetwork.com/
 
----
+------------------------------------------------------------------------
 
 ## 13. Security Reporting Guidelines
 
 When reporting a potential vulnerability:
 
-1. Do not publicly disclose the vulnerability before contacting the team.
-2. Do not attempt to steal funds or permanently damage the ecosystem.
-3. Provide enough information for the team to reproduce the issue.
-4. Include relevant transaction hashes or contract references when available.
-5. Allow reasonable time for investigation and response.
+1.  Do not publicly disclose the vulnerability before contacting the
+    team.
+2.  Do not attempt to steal funds or permanently damage the ecosystem.
+3.  Provide enough information for the team to reproduce the issue.
+4.  Include relevant transaction hashes or contract references when
+    available.
+5.  Allow reasonable time for investigation and response.
 
-Reports involving confirmed security vulnerabilities will be reviewed by the VIKASA Network team.
+Reports involving confirmed security vulnerabilities will be reviewed by
+the VIKASA Network team.
 
----
+------------------------------------------------------------------------
 
 ## 14. Security Principles
 
-VIKASA Network follows the following security and transparency principles:
+VIKASA Network follows the following security and transparency
+principles:
 
 - Transparency.
 - Public verification.
@@ -377,13 +506,15 @@ VIKASA Network follows the following security and transparency principles:
 - Public security reporting.
 - Separation of contract and market-risk considerations.
 
----
+------------------------------------------------------------------------
 
 ## 15. What Automated Security Assessments Cannot Guarantee
 
-Automated security-analysis tools are useful for identifying many classes of technical issues.
+Automated security-analysis tools are useful for identifying many
+classes of technical issues.
 
-However, automated analysis cannot guarantee that a blockchain project is completely secure.
+However, automated analysis cannot guarantee that a blockchain project
+is completely secure.
 
 Automated tools may not fully identify:
 
@@ -403,31 +534,33 @@ Automated tools may not fully identify:
 - Market and liquidity risks.
 - Regulatory or legal risks.
 
-Therefore, automated security scores should not be interpreted as guarantees of safety.
+Therefore, automated security scores should not be interpreted as
+guarantees of safety.
 
----
+------------------------------------------------------------------------
 
 ## 16. User Verification
 
-Before interacting with VIK, users should independently verify the following.
+Before interacting with VIK, users should independently verify the
+following.
 
 ### Contract
 
 Confirm the official VIK contract:
 
-```text
+``` text
 0x2921d67ac78ebda0020f952e51e931ed125e00c1
 ```
 
 ### Network
 
-```text
+``` text
 Polygon PoS
 ```
 
 ### Token
 
-```text
+``` text
 Vikasa Network (VIK)
 ```
 
@@ -435,25 +568,33 @@ Vikasa Network (VIK)
 
 https://www.vikasanetwork.com/
 
-Users should avoid relying on contract addresses received through unsolicited messages, unofficial social-media accounts, or unknown websites.
+Users should avoid relying on contract addresses received through
+unsolicited messages, unofficial social-media accounts, or unknown
+websites.
 
----
+------------------------------------------------------------------------
 
 ## 17. Security Transparency
 
-VIKASA Network intends to maintain public security documentation as the ecosystem develops.
+VIKASA Network intends to maintain public security documentation as the
+ecosystem develops.
 
-When material security information changes, the relevant documentation may be updated to reflect the current state of the ecosystem.
+When material security information changes, the relevant documentation
+may be updated to reflect the current state of the ecosystem.
 
-Security information should always be evaluated together with the date on which it was published.
+Security information should always be evaluated together with the date
+on which it was published.
 
-An assessment performed at one point in time does not automatically validate future code, contracts, liquidity, infrastructure, or ecosystem changes.
+An assessment performed at one point in time does not automatically
+validate future code, contracts, liquidity, infrastructure, or ecosystem
+changes.
 
----
+------------------------------------------------------------------------
 
 ## 18. Disclaimer
 
-VIK is a utility reward token and does not represent equity ownership in Vikasa Network.
+VIK is a utility reward token and does not represent equity ownership in
+Vikasa Network.
 
 Publication of security assessments does not constitute a guarantee of:
 
@@ -468,11 +609,15 @@ Publication of security assessments does not constitute a guarantee of:
 
 No blockchain system can be considered completely risk-free.
 
-Users should independently verify contract information, liquidity, wallet addresses, transaction data, security reports, and other relevant information before interacting with any digital asset or decentralized application.
+Users should independently verify contract information, liquidity,
+wallet addresses, transaction data, security reports, and other relevant
+information before interacting with any digital asset or decentralized
+application.
 
-Nothing in this document constitutes financial, investment, legal, or tax advice.
+Nothing in this document constitutes financial, investment, legal, or
+tax advice.
 
----
+------------------------------------------------------------------------
 
 ## 19. Official References
 
@@ -488,9 +633,11 @@ https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
 
 https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
 
-### Quantum Audit
+### Quantum Audit — Published VIK Report (29 October 2026)
 
-https://quantumaudit.app/
+https://quantumaudit.app/token/vikasanetwork-poly-0b9a6267
+
+Quantum Audit homepage: https://quantumaudit.app/
 
 ### GitHub Documentation
 
@@ -500,23 +647,44 @@ https://github.com/vikasanetwork/vikasa-network-docs
 
 https://www.vikasanetwork.com/whitepaper.pdf
 
----
+------------------------------------------------------------------------
 
-## 20. Document Information
+## 20. Post-Assessment Remediation Tracker
 
-| Property | Value |
-|---|---|
-| **Project** | Vikasa Network |
-| **Token** | VIK |
-| **Blockchain** | Polygon PoS |
-| **Contract** | `0x2921d67ac78ebda0020f952e51e931ed125e00c1` |
-| **Token Standard** | ERC-20 |
-| **Decimals** | 18 |
-| **Maximum Supply** | 24,000,000 VIK |
-| **Version** | 2.0 |
-| **Last Updated** | 8 October 2026 |
+This tracker records follow-up actions prompted by the Quantum Audit
+report dated 29 October 2026. Statuses below are not claims that a fix
+has been completed. Update each status only after retaining evidence.
 
----
+| Priority | Action                                                                                                                                     | Initial status                | Evidence required to mark verified fixed                                                                                     |
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| P1       | Verify the analysed liquidity pool and LP position; decide whether and how to lock liquidity responsibly.                                  | Open                          | Correct pool/position address, transaction hash, public locker record, amount/position covered, beneficiary and unlock date. |
+| P1       | Recheck current liquidity and trading activity.                                                                                            | Open                          | Dated links or records from the relevant pool/explorer and market-data source.                                               |
+| P1       | Reconcile top-holder concentration and explain significant project wallets/contracts.                                                      | Open                          | Current holder export, wallet/contract labels supported by evidence, and published allocation notes.                         |
+| P2       | Document retained ownership and the exact administrative functions available to the owner.                                                 | Open                          | Verified contract source and current owner/permission checks on PolygonScan.                                                 |
+| P2       | Keep the website, GitHub documentation and public statements consistent about assessment type and findings.                                | In progress — review required | Updated pages and repository with matching dates, links and explicit automated-assessment disclosure.                        |
+| P3       | Plan a professional manual smart-contract audit when feasible, especially before adding higher-risk contracts or withdrawal/DeFi features. | Future milestone              | Public report from a qualified independent security firm covering the relevant deployed scope.                               |
+
+Do not mark a finding **Verified Fixed** solely because a website,
+document or social post was updated. Use verifiable technical or
+on-chain evidence appropriate to the finding.
+
+------------------------------------------------------------------------
+
+## 21. Document Information
+
+| Property           | Value                                        |
+|--------------------|----------------------------------------------|
+| **Project**        | Vikasa Network                               |
+| **Token**          | VIK                                          |
+| **Blockchain**     | Polygon PoS                                  |
+| **Contract**       | `0x2921d67ac78ebda0020f952e51e931ed125e00c1` |
+| **Token Standard** | ERC-20                                       |
+| **Decimals**       | 18                                           |
+| **Maximum Supply** | 24,000,000 VIK                               |
+| **Version**        | 2.1                                          |
+| **Last Updated**   | 30 October 2026                              |
+
+------------------------------------------------------------------------
 
 **Vikasa Network**
 
