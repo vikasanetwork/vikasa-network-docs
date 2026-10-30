@@ -133,6 +133,10 @@ https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
 * Assessment included contract configuration, ownership controls, liquidity, holder distribution, and market-related conditions.
 * Liquidity and market conditions were identified as important risk considerations at the time of assessment.
 
+### Report
+
+https://quantumaudit.app/token/vikasanetwork-poly-0b9a6267
+
 ## Audit Disclosure
 
 The Audit Forge and Quantum assessments are **automated security assessments**.
@@ -140,6 +144,31 @@ The Audit Forge and Quantum assessments are **automated security assessments**.
 They are **not professional manual smart contract audits** and do not guarantee that the VIK smart contract or the wider VIKASA Network ecosystem is completely free from vulnerabilities.
 
 A professional manual third-party security audit remains a future security milestone as the ecosystem grows and additional functionality is introduced.
+
+---
+
+## Documentation Updates — 30 October 2026
+
+### Token Lock Transparency
+
+* Published the six PinkLock lock records supplied for VIK on Polygon PoS.
+* Reported total recorded as locked: **23,871,333.1331 VIK**.
+* Documented the listed unlock dates and advised readers to verify individual records and transactions on-chain.
+* Clarified that VIK token locks do not establish that Uniswap liquidity-provider positions are locked.
+* Disclosed the differences between published allocation figures and the corresponding listed lock-record totals.
+
+**Important:** The lock figures in the transparency document are based on the PinkLock overview information available when the document was prepared. They should not be treated as independently verified without checking the live records and transactions.
+
+### Circulating Supply Methodology
+
+* Updated the circulating supply methodology to **Version 1.3**.
+* Kept circulating supply status provisional pending reconciliation of current wallet balances, lock records, exclusions, and on-chain data.
+* Documented that token allocation, wallet balances, locked amounts, and circulating supply are distinct metrics.
+
+### Documentation Index
+
+* Updated the README to reference the circulating supply methodology.
+* Retained the existing automated-assessment disclosures and noted that assessment findings are time-specific.
 
 ---
 
@@ -180,3 +209,5 @@ All future functionality remains subject to development, testing, security revie
 **Maintained by:** Vikasa Network
 
 **Repository:** https://github.com/vikasanetwork/vikasa-network-docs
+
+**Last Updated:** 30 October 2026
