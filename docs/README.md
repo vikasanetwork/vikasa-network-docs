@@ -1,93 +1,58 @@
 # Vikasa Network Documentation
 
-This folder contains the official public documentation for **Vikasa Network**.
-
-The documentation is maintained to provide transparent and publicly accessible information for users, developers, investors, ecosystem partners, and the wider community.
-
----
+This repository contains public documentation for **Vikasa Network** and its VIK token. It is intended to help users, developers, ecosystem partners, and other interested parties understand the project, its token, and its published risks.
 
 ## Documentation
 
-The official documentation includes:
+Use the repository's current filenames when opening these documents:
 
-- **FAQ** — Frequently asked questions about Vikasa Network, VIK, the application, rewards, security, and ecosystem functionality.
-- **Roadmap** — Current and planned development milestones.
-- **Tokenomics** — VIK token supply, allocation, distribution, and ecosystem economics.
-- **Smart Contract** — VIK token contract information, technical characteristics, and verification details.
-- **Security** — Security practices, risk disclosures, responsible disclosure, and security information.
-- **Transparency** — Public project, token, wallet, liquidity, and ecosystem transparency information.
-- **Circulating Supply Methodology** — Methodology and reconciliation notes for evaluating VIK circulating supply. Figures remain provisional until the relevant wallet balances, lock records, exclusions, and on-chain data are reconciled.
-- **Audit Status** — Published automated security assessments and current audit status.
-- **Ecosystem** — Overview of the VIKASA Network ecosystem and its components.
-- **Verification** — Official contract, website, documentation, and project verification references.
-- **Changelog** — Documented changes and updates to the project.
-- **Release History** — Historical application and ecosystem releases.
+- **Transparency** — project and token transparency, reported token-lock records, liquidity disclosures, and limitations.
+- **VIK Token Circulating Supply Methodology** — methodology and caveats for interpreting token distribution and circulating supply.
+- **FAQ** — frequently asked questions about Vikasa Network, VIK, the application, and ecosystem functionality.
+- **Roadmap** — current and planned development milestones.
+- **Tokenomics** — token supply, allocation, distribution, and ecosystem economics.
+- **Smart Contract** — contract information and technical characteristics.
+- **Security** — security practices, risk disclosures, and responsible disclosure information.
+- **Audit Status** — published automated assessments and audit-status disclosures.
+- **Changelog / Release History** — documented updates to the project and its documentation.
 
----
+## VIK Token Information
+
+- **Website:** https://www.vikasanetwork.com/
+- **GitHub documentation:** https://github.com/vikasanetwork/vikasa-network-docs
+- **Network:** Polygon PoS
+- **Token standard:** ERC-20
+- **Contract:** `0x2921d67ac78ebda0020f952e51e931ed125e00c1`
+- **Maximum supply:** 24,000,000 VIK
+
+## Reported Token-Lock Snapshot
+
+According to the PinkLock records supplied for this documentation update, seven token-lock records total **23,933,833.1331 VIK**, approximately **99.7243%** of the maximum supply. The records include a **62,500 VIK Founder Commitment Lock** with an unlock time of **31 March 2027 at 15:30 UTC**.
+
+These figures are a snapshot based on the displayed records and have not been independently verified as part of this document update. A locked-token total is not, by itself, a verified circulating-supply figure. Token locks are also distinct from liquidity-provider (LP) locks; these records do not prove that Uniswap liquidity is locked. Refer to the Transparency document and the circulating-supply methodology for limitations and interpretation.
 
 ## Security Assessments
-
-Vikasa Network has published automated security assessments, including:
 
 ### Audit Forge
 
 **Reported result:** 98/100 — A / Robust / Low Risk
 
-Report:
-
-https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
+Report: https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
 
 ### Quantum Audit
 
 **Reported result:** 84/100 — High Risk (assessment dated 29 October 2026)
 
-The published assessment identified liquidity and market-related risk considerations, including liquidity-lock status, available market liquidity, holder concentration, and ownership/control considerations.
+Report: https://quantumaudit.app/token/vikasanetwork-poly-0b9a6267
 
-Report:
-
-https://quantumaudit.app/token/vikasanetwork-poly-0b9a6267
-
-> **Important:** These are automated security assessments, not professional manual smart-contract audits. Their scores and findings reflect the methodologies and information available to the assessment platforms at the time of analysis. They do not guarantee that the VIK smart contract or the wider Vikasa Network ecosystem is free from vulnerabilities.
-
-The Quantum Audit findings are time-specific observations. Current liquidity, LP-token ownership, holder distribution, and trading conditions should be independently verified on-chain before describing them as current or resolved.
-
----
-
-## Official Project
-
-**Website:**  
-https://www.vikasanetwork.com/
-
-**GitHub:**  
-https://github.com/vikasanetwork/vikasa-network-docs
-
-**VIK Contract:**  
-`0x2921d67ac78ebda0020f952e51e931ed125e00c1`
-
-**Network:** Polygon PoS
-
-**Token Standard:** ERC-20
-
-**Maximum Supply:** 24,000,000 VIK
-
----
+> **Important:** These are automated security assessments, not professional manual smart-contract audits. Scores and findings reflect each platform's methodology and the information available at the time. They do not guarantee that the contract or the wider ecosystem is free from vulnerabilities. Historical findings should not be described as current without rechecking the underlying on-chain state.
 
 ## Documentation Principles
 
-Vikasa Network aims to maintain documentation that is:
+Vikasa Network aims to maintain documentation that is transparent, publicly accessible, and consistent with verifiable evidence. Token-lock totals, circulating supply, liquidity, LP-lock status, holder distribution, and trading activity are different measures and should not be treated as interchangeable.
 
-- Transparent
-- Publicly accessible
-- Verifiable
-- Regularly updated
-- Consistent with the current state of the ecosystem
+Do not describe liquidity as locked unless the LP position or LP tokens are independently verifiable as locked. Do not describe token-lock records as proof of CoinGecko listing approval or as a guarantee of token price stability.
 
-Documentation may be updated as the project, application, smart contracts, security assessments, and ecosystem features evolve.
-
-Security-related claims should be supported by publicly verifiable evidence. A reported finding should not be marked as fixed until the relevant change or on-chain state has been independently verified.
-
----
-
-**Maintained by:** Vikasa Network
-
-**Last Updated:** 30 October 2026
+**Maintained by:** Vikasa Network  
+**Version:** 1.2  
+**Last updated:** 30 October 2026
