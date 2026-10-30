@@ -1,5 +1,6 @@
 # Token Lock Transparency
 
+**Version:** 2.1  
 **Last Updated:** 30 October 2026
 
 ## VIK Token Lock Records
@@ -24,11 +25,13 @@ Vikasa Network has created the following token-lock records through PinkLock on 
 
 ### Lock Verification
 
-Public lock overview:
-
-https://www.pinksale.finance/pinklock/polygon/0x2921D67Ac78EBDA0020F952e51e931ed125e00c1
+**Public lock overview:**  
+https://www.pinksale.finance/pinklock/polygon/0x2921D67Ac78EBDA0020F952E51e931ed125e00c1
 
 Users should independently inspect the individual lock records and verify the corresponding transactions on PolygonScan.
+
+**PolygonScan token page:**  
+https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
 
 ### Important Disclosure
 
