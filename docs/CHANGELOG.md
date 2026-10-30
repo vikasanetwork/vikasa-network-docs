@@ -1,213 +1,46 @@
 # Changelog
 
-All notable changes to **Vikasa Network** are documented in this file.
-
-This project follows a structured release history to improve transparency for users, developers, and ecosystem partners.
-
----
-
-# Version 1.0.0
-
-**Release Date:** 18 June 2026
-
-## Application
-
-* Android application **v6.1.0** released on Google Play.
-* Initial public release of the Vikasa Network ecosystem.
-
----
-
-## Added
-
-### Platform
-
-* Official Vikasa Network website launched.
-* Android application published on Google Play.
-* User registration and authentication.
-* Daily VIK reward system.
-* Rewarded advertisement system.
-* Daily claim functionality.
-* Referral program.
-* Community feed.
-* Direct messaging.
-* Leaderboard.
-* VIK token lock feature.
-* User wallet interface.
-* Push notification support.
-
-### Blockchain
-
-* VIK utility token deployed on Polygon PoS.
-* ERC-20 smart contract deployed.
-* Smart contract verified on PolygonScan.
-* Fixed token supply established.
-* Public contract address published.
-
-### Documentation
-
-* Whitepaper published.
-* Public GitHub documentation repository created.
-* Security Policy published.
-* Security information page published.
-* Transparency Report published.
-* Audit Status documentation published.
-* Changelog introduced.
-
-### Infrastructure
-
-* Cloudflare Web Analytics integrated.
-* Search Engine Optimization (SEO) improvements.
-* Structured Schema.org metadata added.
-* Open Graph metadata configured.
-* Twitter Card metadata configured.
-* Progressive Web App (PWA) manifest added.
-* XML sitemap generated.
-* robots.txt configured.
-
-### Community
-
-* Official X (Twitter) account launched.
-* Official LinkedIn page launched.
-* Official Instagram page launched.
-* Official Telegram community launched.
-* Official GitHub organization created.
-* CoinMarketCap Community account created.
-
----
-
-## Security
-
-* Smart contract source code verified on PolygonScan.
-* Fixed total supply of **24,000,000 VIK**.
-* No mint function after deployment.
-* No proxy contract.
-* No blacklist functionality.
-* No transfer tax.
-* Standard ERC-20 implementation based on OpenZeppelin.
-* GoPlus Security automated analysis completed.
-* Public security documentation published.
-
----
-
-## Known Limitations
-
-* Token withdrawals are not yet available.
-* Public liquidity has not yet been deployed.
-* Exchange listings are in progress.
-* KYC verification is planned for a future release.
-* Professional manual third-party smart contract audit has not yet been completed.
-
----
-
-## Notes
-
-Version **1.0.0** represents the first public release of the Vikasa Network ecosystem.
-
-Future releases will continue to improve platform functionality, security, ecosystem utility, and blockchain integrations while maintaining transparent public documentation.
-
----
-
-# Security Assessment Update
-
-**Date:** 8 October 2026
-
-Following the initial Version 1.0.0 release, VIKASA Network completed additional automated security assessments.
-
-## Audit Forge
-
-* Automated multi-engine smart contract security assessment completed.
-* Result: **98/100 — A / Robust / Low Risk**.
-* Critical findings: **0**.
-* High findings: **0**.
-* Medium findings: **0**.
-* Low findings: **10**.
-* Informational findings: **34**.
-
-### Report
-
-https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
-
-## Quantum Audit
-
-* Automated smart contract and on-chain security assessment completed.
-* Assessment included contract configuration, ownership controls, liquidity, holder distribution, and market-related conditions.
-* Liquidity and market conditions were identified as important risk considerations at the time of assessment.
-
-### Report
-
-https://quantumaudit.app/token/vikasanetwork-poly-0b9a6267
-
-## Audit Disclosure
-
-The Audit Forge and Quantum assessments are **automated security assessments**.
-
-They are **not professional manual smart contract audits** and do not guarantee that the VIK smart contract or the wider VIKASA Network ecosystem is completely free from vulnerabilities.
-
-A professional manual third-party security audit remains a future security milestone as the ecosystem grows and additional functionality is introduced.
-
----
-
-## Documentation Updates — 30 October 2026
-
-### Token Lock Transparency
-
-* Published the six PinkLock lock records supplied for VIK on Polygon PoS.
-* Reported total recorded as locked: **23,871,333.1331 VIK**.
-* Documented the listed unlock dates and advised readers to verify individual records and transactions on-chain.
-* Clarified that VIK token locks do not establish that Uniswap liquidity-provider positions are locked.
-* Disclosed the differences between published allocation figures and the corresponding listed lock-record totals.
-
-**Important:** The lock figures in the transparency document are based on the PinkLock overview information available when the document was prepared. They should not be treated as independently verified without checking the live records and transactions.
-
-### Circulating Supply Methodology
-
-* Updated the circulating supply methodology to **Version 1.3**.
-* Kept circulating supply status provisional pending reconciliation of current wallet balances, lock records, exclusions, and on-chain data.
-* Documented that token allocation, wallet balances, locked amounts, and circulating supply are distinct metrics.
-
-### Documentation Index
-
-* Updated the README to reference the circulating supply methodology.
-* Retained the existing automated-assessment disclosures and noted that assessment findings are time-specific.
-
----
-
-## Current Security Documentation
-
-The following security documentation is publicly available:
-
-* Security Policy.
-* Security Information page.
-* Audit Status documentation.
-* Audit Forge security assessment.
-* Quantum security assessment.
-* Smart contract verification through PolygonScan.
-* Public GitHub documentation.
-
----
-
-## Future Releases
-
-Future releases may include improvements to:
-
-* Security and smart contract review.
-* Liquidity infrastructure.
-* Wallet integrations.
-* Withdrawal functionality.
-* KYC integration.
-* iOS application development.
-* DEX and exchange integrations.
-* NFT ecosystem functionality.
-* Governance features.
-* Additional security assessments.
-* Professional manual security audit.
-
-All future functionality remains subject to development, testing, security review, and applicable requirements before deployment.
-
----
-
-**Maintained by:** Vikasa Network
-
-**Repository:** https://github.com/vikasanetwork/vikasa-network-docs
-
-**Last Updated:** 30 October 2026
+## Version 1.2 --- VIK Token Lock Records Update
+
+**Date:** 2026-10-30
+
+### Updated
+
+-   Documented the newly reported 62,500 VIK Founder Commitment Lock.
+-   Updated the total reported locked amount to 23,933,833.1331 VIK,
+    based on the PinkSale lock information supplied for this update.
+-   Updated the reported locked share of the 24,000,000 VIK maximum
+    supply to approximately 99.7243%.
+-   Recorded the reported unlock time for the Founder Commitment Lock:
+    2027-03-31 15:30 UTC.
+-   Aligned the documentation update notes with the latest supplied lock
+    records.
+
+### Transparency and limitations
+
+-   These figures are based on lock records supplied for documentation
+    and have not been independently verified in this changelog.
+-   A token lock is not the same as locking Uniswap liquidity-provider
+    (LP) tokens.
+-   The percentage of tokens reported as locked is not, by itself, a
+    verified circulating-supply figure.
+-   A displayed USD locked value of \$0 is reproduced as a dashboard
+    field and does not by itself establish whether tokens are locked or
+    unlocked.
+-   Listing approval by CoinGecko or any other service is not
+    guaranteed.
+
+### Files updated in this documentation sequence
+
+-   `TRANSPARENCY.md` --- replace contents with `TRANSPARENCY_v2.2.md`
+    (retain the repository's existing filename).
+-   Circulating-supply methodology --- replace contents with
+    `VIK_Token_Circulating_Supply_Methodology_v1.4.md` (retain the
+    repository's existing filename).
+-   `README.md` --- replace contents with `README_v1.2.md` (retain the
+    repository's existing filename).
+-   `CHANGELOG.md` --- replace contents with this updated changelog
+    (retain the repository's existing filename).
+
+*This changelog records the documentation changes described above; it
+does not assert that the files have been committed to GitHub.*
