@@ -1,6 +1,6 @@
 # Token Lock Transparency
 
-**Version:** 2.1  
+**Version:** 2.2  
 **Last Updated:** 30 October 2026
 
 ## VIK Token Lock Records
@@ -13,15 +13,22 @@ Vikasa Network has created the following token-lock records through PinkLock on 
 
 ### Published Lock Records
 
+The following table reflects the lock records supplied from the PinkLock dashboard on 30 October 2026. The records have not been independently verified in this document.
+
 | Allocation Purpose | Amount Locked | Unlock Date (UTC) |
 |---|---:|---|
+| Founder Commitment Lock | 62,500 VIK | 31 March 2027, 15:30 |
 | Liquidity & Exchange Listings | 4,000,000 VIK | 30 April 2027, 03:33 |
 | Future Liquidity & Project Reserve | 674,933.1331 VIK | 30 April 2027, 03:33 |
 | Community Rewards & Engagement | 11,996,400 VIK | 11 November 2027, 11:11 |
 | Team & Advisors | 2,400,000 VIK | 11 November 2027, 11:11 |
 | Strategic Reserve | 1,200,000 VIK | 11 November 2027, 11:11 |
 | Ecosystem & Development | 3,600,000 VIK | 11 November 2027, 11:11 |
-| **Total Recorded as Locked** | **23,871,333.1331 VIK** | |
+| **Total Recorded as Locked** | **23,933,833.1331 VIK** | |
+
+**Share of maximum supply recorded as locked:** approximately 99.7243%.
+
+**Difference between maximum supply and the listed locked amount:** 66,166.8669 VIK. This is only an arithmetic difference and must not be described as circulating supply without a separate methodology and verification.
 
 ### Lock Verification
 
@@ -35,7 +42,7 @@ https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
 
 ### Important Disclosure
 
-The amounts above reflect the lock records displayed on the PinkLock overview page at the time this report was prepared. The figures should be rechecked against the live records before being relied upon.
+The amounts above reflect the PinkLock dashboard information supplied for this update on 30 October 2026. They have not been independently verified here. The figures should be rechecked against the live records and on-chain transactions before being relied upon. The dashboard displayed a current locked value of $0; this report does not interpret that display as a USD valuation of the locked tokens.
 
 Tokens subject to these locks are unavailable for ordinary transfer by the lock owner until the applicable unlock conditions are met, subject to the lock contract's rules. Unlocking may require a separate transaction.
 
