@@ -1,4 +1,10 @@
-# Project Identity
+# VIKASA Network — Verification
+
+This document explains how users can independently verify publicly available information about Vikasa Network and the VIK token. Detailed security findings and remediation status are maintained in `SECURITY.md` and `AUDIT STATUS`.
+
+---
+
+## 1. Project Identity
 
 | Property | Value |
 |---|---|
@@ -11,184 +17,179 @@
 
 ---
 
-# Smart Contract
+## 2. Smart Contract
 
-**Contract Address**
+**Contract address**
 
 ```text
 0x2921d67ac78ebda0020f952e51e931ed125e00c1
+```
 
-Current Status
-- ✅ Smart contract deployed
-- ✅ Source code publicly verified on PolygonScan
-- ✅ Fixed maximum supply of 24,000,000 VIK
-- ✅ No public mint function after deployment
-- ✅ No proxy contract
-- ✅ No blacklist functionality
-- ✅ No transfer tax
-- ✅ No trading pause functionality
-Public Verification
-The following items can currently be independently verified:
-- Smart contract deployed on Polygon PoS
-- Source code verified on PolygonScan
-- Fixed maximum token supply
-- Public GitHub documentation repository
-- Official website
-- Android application published on Google Play
-- Whitepaper publicly available
-- Public security documentation
-- Published automated security assessments
-Smart Contract Verification
-The VIK smart contract source code is publicly verified on PolygonScan.
-PolygonScan
+### Reported contract characteristics
+
+- Smart contract deployed on Polygon PoS.
+- Source code publicly verified on PolygonScan.
+- Maximum supply of 24,000,000 VIK.
+- No public mint function after deployment, according to the project's security documentation.
+- No proxy contract, according to the project's security documentation.
+- No blacklist functionality, according to the project's security documentation.
+- No transfer tax, according to the project's security documentation.
+- No trading-pause functionality, according to the project's security documentation.
+
+These characteristics should be checked against the currently deployed contract and current on-chain data. A verified source-code page does not, by itself, establish that the wider project or ecosystem is risk-free.
+
+### PolygonScan
+
 https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
-Users can independently inspect the verified contract and current on-chain information.
-Public Security Verification
-Current publicly available security information includes:
-- PolygonScan verified source code
-- GoPlus Security automated analysis
-- Audit Forge automated multi-engine assessment
-- Quantum automated security assessment
-- OpenZeppelin ERC-20 implementation
-- Public GitHub security documentation
-Audit Forge Verification
-VIKASA Network underwent an automated multi-engine smart-contract security assessment through Audit Forge.
-Result
-98/100 — A / Robust / Low Risk
-Reported findings:
-Severity	Findings
-Critical	0
-High	0
-Medium	0
-Low	10
-Informational	34
 
+Users can inspect the contract, transactions, token holders, and available on-chain information using PolygonScan.
 
-Official Report
+---
+
+## 3. Public Verification Checklist
+
+Before interacting with VIK, independently verify:
+
+- **Contract address:** `0x2921d67ac78ebda0020f952e51e931ed125e00c1`
+- **Network:** Polygon PoS
+- **Token standard:** ERC-20
+- **Decimals:** 18
+- **Maximum supply:** 24,000,000 VIK
+- **Source-code verification:** Check the contract page on PolygonScan.
+- **Current token supply and holder distribution:** Review current on-chain data.
+- **Liquidity and LP-token ownership:** Check the relevant decentralised-exchange pool and any claimed lock.
+- **Official links:** Confirm links through the official website or project documentation.
+
+Do not rely on a contract address supplied through unsolicited messages, unofficial social accounts, or unknown websites.
+
+---
+
+## 4. Public Security Assessments
+
+Vikasa Network has published automated security assessments. These reports are useful references, but they have different methodologies and scopes.
+
+### Audit Forge
+
+**Reported result:** 98/100 — A / Robust / Low Risk
+
+**Reported findings:**
+
+| Severity | Findings |
+|---|---:|
+| Critical | 0 |
+| High | 0 |
+| Medium | 0 |
+| Low | 10 |
+| Informational | 34 |
+
+Report:
+
 https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
-Quantum Audit Verification
-VIKASA Network also underwent an automated Quantum Audit assessment.
-The assessment reviewed areas including:
-- Smart-contract configuration
-- Ownership and administrative controls
-- Liquidity
-- Holder distribution
-- Market conditions
-- On-chain characteristics
-The assessment identified liquidity and market-related considerations that are separate from source-code security.
-Audit Disclosure
-Audit Forge and Quantum Audit are automated security assessments.
-They are not professional manual smart-contract audits and do not guarantee that the VIK smart contract or the wider Vikasa Network ecosystem is completely free from vulnerabilities.
-Automated assessments cannot guarantee protection against:
-- Unknown vulnerabilities
-- Business-logic vulnerabilities
-- Economic attacks
-- Private-key compromise
-- Operational security failures
-- Infrastructure vulnerabilities
-- Future code changes
-- Third-party integration risks
-- Liquidity risks
-- Market risks
-A professional manual third-party smart-contract audit remains a future security milestone as the ecosystem grows and additional functionality is introduced.
-Token Supply Verification
-The maximum supply of VIK is:
-24,000,000 VIK
 
-The deployed contract does not provide a public mint function for creating additional VIK beyond the fixed supply.
-Users can independently verify token supply information through PolygonScan.
-Contract Verification Checklist
-Before interacting with VIK, users should verify:
-Contract Address
-0x2921d67ac78ebda0020f952e51e931ed125e00c1
+### Quantum Audit
 
-Network
-Polygon PoS
+**Reported result:** 84/100 — High Risk, assessment dated 29 October 2026.
 
-Token Standard
-ERC-20
+The published assessment identifies liquidity and market-related considerations, including liquidity-lock status, available liquidity, holder concentration, and ownership/control considerations.
 
-Decimals
-18
+Report:
 
-Maximum Supply
-24,000,000 VIK
+https://quantumaudit.app/token/vikasanetwork-poly-0b9a6267
 
-Users should compare the contract address against official Vikasa Network documentation before interacting with the token.
-Official Resources
-Website
+The Quantum findings are a time-specific snapshot. Current conditions may differ and should be checked on-chain. Do not describe a finding as fixed unless the relevant change has been independently verified.
+
+### Audit disclosure
+
+Audit Forge and Quantum Audit are automated security assessments, not professional manual smart-contract audits. Their scores do not guarantee that the smart contract or wider ecosystem is free from vulnerabilities.
+
+A professional manual third-party smart-contract audit remains a future security milestone, as stated in the project's security documentation.
+
+---
+
+## 5. Other Public Project References
+
+### Official website
+
 https://www.vikasanetwork.com/
-Whitepaper
+
+### Whitepaper
+
 https://www.vikasanetwork.com/whitepaper.pdf
-GitHub
+
+### GitHub documentation
+
 https://github.com/vikasanetwork/vikasa-network-docs
-PolygonScan
-https://polygonscan.com/token/0x2921d67ac78ebda0020f952e51e931ed125e00c1
-Google Play
+
+### Google Play
+
 https://play.google.com/store/apps/details?id=com.vikasa.app
-Audit Forge Report
-https://auditforge.org/r/d0833c5b-accc-4dc2-b355-09a66a03c8a8
-Quantum Audit
-https://quantumaudit.app/
-Official Community Channels
-Official community channels include:
-- X (Twitter)
-- LinkedIn
-- Instagram
-- Telegram
-Always verify that links originate from the official Vikasa Network website or official project documentation before interacting with the project.
-Users should be cautious of impersonation accounts, unsolicited messages, fake investment offers, and unofficial contract addresses.
-Contact
-General Inquiries
+
+### Public security documentation
+
+Review `SECURITY.md` and `AUDIT STATUS` in the official documentation repository for detailed findings, disclosures, and audit status.
+
+---
+
+## 6. Official Community Channels
+
+Vikasa Network uses community channels including X (Twitter), LinkedIn, Instagram, and Telegram.
+
+To avoid impersonation, use community links published on the official website or in the official documentation repository. Be cautious of unsolicited messages, fake investment offers, requests for seed phrases, and unofficial contract addresses.
+
+---
+
+## 7. Contact and Responsible Disclosure
+
+**General inquiries:**  
 info@vikasanetwork.com
-Security Reports
-Security vulnerabilities should be reported privately before public disclosure.
-Security reports should include, where possible:
+
+If you identify a potential security vulnerability, report it privately before public disclosure. Include as much of the following information as possible:
+
 - Description of the issue
 - Affected component
 - Steps to reproduce
 - Potential impact
-- Transaction hash
+- Transaction hash, if applicable
 - Contract address
 - Supporting evidence
-Verification Policy
-Vikasa Network is committed to maintaining publicly verifiable information whenever practical.
-Future verification and documentation may include:
-- Exchange listings
-- Liquidity and liquidity-lock information
-- Professional manual security audit
-- Additional ecosystem integrations
-- New smart contracts
-- Additional security assessments
-Material updates will be published through official documentation and appropriate official communication channels.
-Important Verification Notice
-A verified smart contract does not automatically mean that the wider ecosystem is risk-free.
-Users should separately verify:
-- Smart-contract security
-- Contract ownership
-- Token distribution
-- Liquidity
-- Liquidity-lock status
-- Holder distribution
-- Application security
-- Official project channels
-- Exchange listings
-- Third-party integrations
-Security information may change as the ecosystem develops.
-Disclaimer
-Users should independently verify all project information using official resources before interacting with blockchain applications or digital assets.
-Security assessments and verification information do not constitute a guarantee of complete security, token value, liquidity, future returns, exchange listings, or ecosystem performance.
-Nothing in this document constitutes financial, investment, legal, or tax advice.
-Document Information
-Project: Vikasa Network
-Token: VIK
-Blockchain: Polygon PoS
-Contract:
-0x2921d67ac78ebda0020f952e51e931ed125e00c1
 
-Maximum Supply: 24,000,000 VIK
-Version: 2.0
-Last Updated: 8 October 2026
+Do not attempt to steal funds or cause damage to demonstrate a vulnerability.
+
+---
+
+## 8. Verification Policy
+
+Vikasa Network aims to publish information that is transparent, publicly accessible, and independently verifiable. Material updates may include:
+
+- Current contract and token information
+- Liquidity and liquidity-lock details, supported by on-chain evidence
+- Published security assessments and their scope
+- Professional manual audit status
+- Additional ecosystem integrations and contracts
+- Official application and documentation releases
+
+A verified smart contract does not automatically mean the wider ecosystem is risk-free. Users should separately assess smart-contract security, ownership and administrative controls, token distribution, liquidity, holder concentration, application security, official channels, exchange claims, and third-party integrations.
+
+---
+
+## 9. Disclaimer
+
+Public verification information and automated security assessments do not guarantee complete security, token value, liquidity, future returns, exchange listings, or ecosystem performance.
+
+Users should independently verify project information before interacting with blockchain applications or digital assets. Nothing in this document constitutes financial, investment, legal, or tax advice.
+
+---
+
+## Document Information
+
+| Property | Value |
+|---|---|
+| **Project** | Vikasa Network |
+| **Token** | VIK |
+| **Blockchain** | Polygon PoS |
+| **Contract** | `0x2921d67ac78ebda0020f952e51e931ed125e00c1` |
+| **Maximum supply** | 24,000,000 VIK |
+| **Version** | 2.1 |
+| **Last updated** | 30 October 2026 |
+
 © 2026 Vikasa Network
-
-This version keeps `VERIFICATION.md` focused specifically on **how someone can independently verify VIK**, while the detailed security findings remain in `SECURITY.md` and `AUDIT STATUS`.
