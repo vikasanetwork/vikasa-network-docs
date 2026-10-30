@@ -1,6 +1,6 @@
 # VIK Token Circulating Supply Methodology
 
-**Version:** 1.3  
+**Version:** 1.4  
 **Date:** 30 October 2026  
 **Status:** Provisional — current wallet balances, allocation mapping, lock transactions, and circulating-supply treatment require reconciliation.
 
@@ -17,7 +17,7 @@
 
 Circulating supply should be calculated from the current on-chain total supply, subtracting only balances that meet the relevant data provider's definition of non-circulating supply and are supported by evidence.
 
-A project allocation being described as “reserved” does not, by itself, prove that it is non-circulating. The founder previously reported that the five allocation wallets' tokens were freely transferable and were not locked by a smart contract. The founder subsequently supplied a PinkLock overview showing six lock records totaling **23,871,333.1331 VIK**, with stated unlock dates in April and November 2027.
+A project allocation being described as “reserved” does not, by itself, prove that it is non-circulating. The founder previously reported that the five allocation wallets' tokens were freely transferable and were not locked by a smart contract. The founder subsequently supplied a PinkLock overview showing six lock records totaling **23,871,333.1331 VIK**. A later supplied PinkLock snapshot shows a seventh record, a **62,500 VIK Founder Commitment Lock** unlocking on **31 March 2027 at 15:30 UTC**, bringing the displayed total to **23,933,833.1331 VIK**. These records still require independent on-chain verification.
 
 These lock records should be verified on-chain before they are treated as confirmed. A token lock may support a non-circulating classification, but acceptance depends on the receiving data provider's methodology and evidence requirements. Do not present a final circulating-supply figure until wallet balances, transfers, lock records, and provider-specific treatment have been reconciled.
 
@@ -57,24 +57,25 @@ The following wallet balances were supplied earlier from a holder list. They are
 
 The five previously reported allocation-wallet balances total **23,971,333.1331 VIK**, which is **28,666.8669 VIK below** the stated total supply of 24,000,000 VIK. These are historical reported balances, not a current full holder snapshot. Other holders, liquidity-related balances, transfers, or differences between intended allocation and current balances may explain the difference. Reconcile all holder balances and allocation records before publishing a final circulating-supply figure.
 
-The six PinkLock records total **23,871,333.1331 VIK**. This total comes from the PinkLock overview supplied by the founder and has not been independently verified in this document. The difference between stated total supply and the displayed lock total is **128,666.8669 VIK**. This difference is not, by itself, a verified circulating-supply figure or proof that the amount is freely available.
+The latest supplied PinkLock snapshot lists seven records totaling **23,933,833.1331 VIK**, or approximately **99.7243%** of the stated 24,000,000 VIK maximum supply. The difference is **66,166.8669 VIK**. These values come from the snapshot supplied by the founder and have not been independently verified in this document. The difference is not, by itself, a verified circulating-supply figure or proof that the amount is freely available.
 
 ## 5. Reported PinkLock Records
 
-The founder supplied the following lock records from the PinkLock overview page for the VIK token on Polygon.
+The founder supplied the following latest lock records from the PinkLock overview page for the VIK token on Polygon. The latest snapshot contains seven records, including the 62,500 VIK Founder Commitment Lock.
 
 **PinkLock overview:**  
 https://www.pinksale.finance/pinklock/polygon/0x2921D67Ac78EBDA0020F952e51e931ed125e00C1
 
 | Reported allocation purpose | Wallet shown (shortened) | Amount shown as locked (VIK) | Unlock time (UTC) |
 |---|---|---:|---|
+| Founder Commitment Lock | `0xED28...c9Ee` | 62,500 | 31 March 2027, 15:30 |
 | Liquidity & Exchange Listings | `0xED28...c9Ee` | 4,000,000 | 30 April 2027, 03:33 |
 | Future Liquidity & Project Reserve | `0xED28...c9Ee` | 674,933.1331 | 30 April 2027, 03:33 |
 | Community Rewards & Engagement | `0x1155...B5f1` | 11,996,400 | 11 November 2027, 11:11 |
 | Team & Advisors | `0x1B7e...23F2` | 2,400,000 | 11 November 2027, 11:11 |
 | Strategic Reserve | `0x26aF...f014` | 1,200,000 | 11 November 2027, 11:11 |
 | Ecosystem & Development | `0x624D...bc83` | 3,600,000 | 11 November 2027, 11:11 |
-| **Total displayed** | | **23,871,333.1331** | |
+| **Total displayed (latest supplied snapshot)** | | **23,933,833.1331** | |
 
 **Verification note:** The table records what was displayed in the supplied PinkLock overview. Before relying on it publicly, verify each record's individual details and successful transaction on PolygonScan. A listed unlock time does not necessarily mean tokens are automatically transferred at that time; the lock contract may require a separate unlock transaction.
 
@@ -109,7 +110,7 @@ Before publishing a circulating-supply number:
 1. Verify total supply directly from the deployed contract at a stated block or timestamp.
 2. Record the current balance of each relevant wallet at the same snapshot.
 3. Confirm all five allocation-wallet addresses and their official classifications.
-4. Verify the six PinkLock records and their transaction hashes on PolygonScan.
+4. Verify all seven PinkLock records, including the 62,500 VIK Founder Commitment Lock, and their transaction hashes on PolygonScan.
 5. Reconcile the 3,600 VIK difference between the Community allocation and its lock amount.
 6. Reconcile the 125,066.8669 VIK difference between the published liquidity allocation and the two liquidity-related lock records.
 7. Reconcile the difference between stated total supply, the previously reported allocation-wallet balances, and the displayed PinkLock total.
@@ -119,7 +120,7 @@ Before publishing a circulating-supply number:
 
 ## 8. Disclosures and Updates
 
-The project reports that its allocations are intended for community rewards, liquidity and exchange listings, ecosystem development, team/advisor purposes, and strategic reserves. The founder reports controlling the five allocation wallets and has supplied a PinkLock overview showing six lock records.
+The project reports that its allocations are intended for community rewards, liquidity and exchange listings, ecosystem development, team/advisor purposes, and strategic reserves. The founder reports controlling the five allocation wallets and has supplied a PinkLock overview showing seven lock records in the latest snapshot, including a 62,500 VIK Founder Commitment Lock. The records are reported data pending independent on-chain verification.
 
 This report distinguishes between:
 - **Published token allocation:** intended project tokenomics.
@@ -134,7 +135,7 @@ Wallet ownership, a wallet label, or an internal reservation alone does not guar
 - **Project website:** https://www.vikasanetwork.com
 - **PinkLock overview:** https://www.pinksale.finance/pinklock/polygon/0x2921D67Ac78EBDA0020F952e51e931ed125e00C1
 
-This document describes the project's methodology and reported information. It is not a verified final circulating-supply statement and does not guarantee acceptance by any data provider.
+This document describes the project's methodology and reported information. It is not a verified final circulating-supply statement and does not guarantee acceptance by any data provider. The latest lock totals and dates are based on a founder-supplied PinkLock snapshot and must be checked against the individual lock contracts and Polygon transactions before being represented as independently verified.
 
 ---
 
@@ -144,6 +145,6 @@ This document describes the project's methodology and reported information. It i
 - **Token:** VIK
 - **Blockchain:** Polygon PoS
 - **Contract:** `0x2921D67Ac78EBDA0020F952e51e931ed125e00C1`
-- **Version:** 1.3
+- **Version:** 1.4
 - **Date:** 30 October 2026
 - **Status:** Provisional
