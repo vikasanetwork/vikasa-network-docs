@@ -50,9 +50,9 @@ External withdrawals are not currently available in Phase 1. Future withdrawal f
 |:---:|:---:|:---:|
 | ![Home Dashboard](./images/Home.png) | ![Watch and Earn](./images/Earn.png) | ![Social](./images/Social.png) |
 
-| Wallet | Referral Centre |
+| Wallet | Profile |
 |:---:|:---:|
-| ![Wallet](./images/Wallet.png) | ![Profilel Centre](./images/Profile. .png) |
+| ![Wallet](./images/Wallet.png) | ![Profilel Centre](./images/Profile.png) |
 
 ---
 
