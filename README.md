@@ -48,11 +48,11 @@ External withdrawals are not currently available in Phase 1. Future withdrawal f
 
 | Home | Earn | Token Lock |
 |:---:|:---:|:---:|
-| ![Home Dashboard](./images/home.png) | ![Watch and Earn](./images/earn.png) | ![Token Lock](./images/stake.png) |
+| ![Home Dashboard](./images/Home.png) | ![Watch and Earn](./images/Earn.png) | ![Social](./images/Social.png) |
 
 | Wallet | Referral Centre |
 |:---:|:---:|
-| ![Wallet](./images/wallet.png) | ![Referral Centre](./images/reffer.png) |
+| ![Wallet](./images/Wallet.png) | ![Profilel Centre](./images/Profile. .png) |
 
 ---
 
