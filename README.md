@@ -46,7 +46,7 @@ External withdrawals are not currently available in Phase 1. Future withdrawal f
 
 > **Repository image paths:** The preview uses the actual `assets/` folder and the exact filename/capitalization used by the Vikasa website assets.
 
-| Home | Earn | Token Lock |
+| Home | Earn | Social |
 |:---:|:---:|:---:|
 | ![Home Dashboard](./images/Home.png) | ![Watch and Earn](./images/Earn.png) | ![Social](./images/Social.png) |
 
